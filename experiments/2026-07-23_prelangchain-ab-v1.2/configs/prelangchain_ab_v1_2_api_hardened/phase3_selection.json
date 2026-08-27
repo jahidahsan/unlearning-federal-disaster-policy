@@ -1,0 +1,42 @@
+{
+  "selected_condition_id": "W1_ONE_STAGE",
+  "selected_workflow": "W1_one_stage",
+  "selection_basis": "preregistered constrained ranking",
+  "phase3_ranking_sha256": "749340e1b0b3cf2844f254873f5cfaa38693dedcca011ecac080f702ced03de2",
+  "phase3_progress": [
+    {
+      "provider": "openai",
+      "expected_joint": 42,
+      "successful_joint": 42,
+      "expected_binary_stage1": 42,
+      "successful_binary_stage1": 42,
+      "expected_positive_stage2": 12,
+      "successful_positive_stage2": 12,
+      "missing_positive_stage2": 0,
+      "complete": true
+    },
+    {
+      "provider": "anthropic",
+      "expected_joint": 42,
+      "successful_joint": 42,
+      "expected_binary_stage1": 42,
+      "successful_binary_stage1": 42,
+      "expected_positive_stage2": 16,
+      "successful_positive_stage2": 16,
+      "missing_positive_stage2": 0,
+      "complete": true
+    },
+    {
+      "provider": "gemini",
+      "expected_joint": 42,
+      "successful_joint": 42,
+      "expected_binary_stage1": 42,
+      "successful_binary_stage1": 42,
+      "expected_positive_stage2": 12,
+      "successful_positive_stage2": 12,
+      "missing_positive_stage2": 0,
+      "complete": true
+    }
+  ],
+  "created_at_utc": "2026-07-23T22:57:54.552771+00:00"
+}

@@ -1,0 +1,4 @@
+run_name,provider,model,prompt_a,prompt_b,a_correct_b_wrong,a_wrong_b_correct,discordant_pairs,exact_two_sided_p_value,holm_adjusted_p_value
+openai_gpt_5_6_terra_low,openai,gpt-5.6-terra,codebook_no_examples_no_checklist,codebook_no_examples_with_checklist,3,2,5,1.0,1.0
+anthropic_claude_haiku_4_5_no_thinking,anthropic,claude-haiku-4-5-20251001,codebook_no_examples_no_checklist,codebook_no_examples_with_checklist,3,3,6,1.0,1.0
+google_gemini_3_1_flash_lite_low,google,gemini-3.1-flash-lite,codebook_no_examples_no_checklist,codebook_no_examples_with_checklist,2,4,6,0.6875,1.0

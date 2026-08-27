@@ -1,0 +1,36 @@
+{
+  "created_at_utc": "2026-07-24T00:45:03.817158+00:00",
+  "analysis_version": "prelangchain_posthoc_v1_3_1",
+  "frozen_source_protocol": "prelangchain_ab_v1_2_api_hardened",
+  "prompt_input_sha256": "107cdf61cc742a491c993b1f1eb27d69c108ce9ef359379664eba471270170af",
+  "source_gold_labels_sha256": "d471754373ae679bd04b83a218e1032dc440d63f142d9dd9f187f284993cc1fb",
+  "analysis_gold_labels_sha256": "d471754373ae679bd04b83a218e1032dc440d63f142d9dd9f187f284993cc1fb",
+  "full_analysis_benchmark_sha256": "ab203fea011cbf56eb75efcb5a2448c713b7640dc8f1deedfdfe2e9673f34ea0",
+  "prompt_input_columns": [
+    "row_id",
+    "target_text",
+    "document_title",
+    "pdf_page",
+    "section_heading",
+    "paragraph_order",
+    "context_previous_2",
+    "context_previous_1",
+    "context_target",
+    "context_next_1",
+    "context_next_2"
+  ],
+  "gold_label_columns": [
+    "row_id",
+    "gold_historical",
+    "gold_old_definition",
+    "gold_current_definition",
+    "gold_final_definition",
+    "gold_target",
+    "gold_agency"
+  ],
+  "source_dataset_sha256": "ab203fea011cbf56eb75efcb5a2448c713b7640dc8f1deedfdfe2e9673f34ea0",
+  "adjudication_workbook_sha256": null,
+  "run_key_policy": "Completed v1.2 run keys remain untouched and continue to identify the original prompt inputs. Human-label edits change only the analysis-gold hash and never make a previous API request appear missing.",
+  "updated_at_utc": "2026-07-24T00:45:29.709991+00:00",
+  "adjudication_rows_imported": 0
+}

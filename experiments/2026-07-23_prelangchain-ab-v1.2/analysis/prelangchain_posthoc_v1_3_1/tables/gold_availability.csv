@@ -1,0 +1,5 @@
+gold_column,non_null_rows,complete
+gold_historical,42,True
+gold_old_definition,0,False
+gold_current_definition,0,False
+gold_final_definition,0,False

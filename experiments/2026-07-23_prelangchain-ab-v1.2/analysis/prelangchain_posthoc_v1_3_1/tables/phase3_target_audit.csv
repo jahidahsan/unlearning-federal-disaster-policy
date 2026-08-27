@@ -1,0 +1,2 @@
+status,reason
+not_valid_for_inference,"One or more positive rows lack a mappable target, a negative row has a positive target, or a nonempty target value is unmapped."

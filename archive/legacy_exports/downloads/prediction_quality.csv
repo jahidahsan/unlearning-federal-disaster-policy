@@ -1,0 +1,16 @@
+provider,run_name,requested_model,prompt_variant,expected_rows,observed_rows,ok_rows,schema_or_parse_errors,transient_errors,configuration_errors,evidence_quote_invalid,label_probability_inconsistent,input_tokens,output_tokens,latency_seconds,missing_rows,valid_rate
+anthropic,anthropic_claude_haiku_4_5,claude-haiku-4-5-20251001,codebook_no_examples_no_checklist,76,76,76,0,0,0,4,0,225394,14889,229.7036401229966,0,1.0
+anthropic,anthropic_claude_haiku_4_5,claude-haiku-4-5-20251001,codebook_no_examples_with_checklist,76,76,76,0,0,0,6,0,241354,15680,249.90215523999495,0,1.0
+anthropic,anthropic_claude_haiku_4_5,claude-haiku-4-5-20251001,codebook_with_examples_no_checklist,76,76,76,0,0,0,4,0,260962,14348,229.66759093000292,0,1.0
+anthropic,anthropic_claude_haiku_4_5,claude-haiku-4-5-20251001,codebook_with_examples_with_checklist,76,76,76,0,0,0,9,0,276922,15760,239.72362737800222,0,1.0
+anthropic,anthropic_claude_haiku_4_5,claude-haiku-4-5-20251001,direct_target_only,76,76,76,0,0,0,4,0,63286,12653,194.68027594199884,0,1.0
+google,google_gemini_3_1_flash_lite_low,gemini-3.1-flash-lite,codebook_no_examples_no_checklist,76,76,75,1,0,0,2,0,199502,9695,666.8041743510016,1,0.9868421052631579
+google,google_gemini_3_1_flash_lite_low,gemini-3.1-flash-lite,codebook_no_examples_with_checklist,76,76,75,1,0,0,3,0,222762,9956,824.4287766169937,1,0.9868421052631579
+google,google_gemini_3_1_flash_lite_low,gemini-3.1-flash-lite,codebook_with_examples_no_checklist,76,76,76,0,0,0,2,0,238985,10095,591.0267431680008,0,1.0
+google,google_gemini_3_1_flash_lite_low,gemini-3.1-flash-lite,codebook_with_examples_with_checklist,76,76,74,2,0,0,4,0,264545,9763,821.893621933998,2,0.9736842105263158
+google,google_gemini_3_1_flash_lite_low,gemini-3.1-flash-lite,direct_target_only,76,76,76,0,0,0,3,0,31427,7653,493.77805896800146,0,1.0
+openai,openai_gpt_5_6_terra_low,gpt-5.6-terra,codebook_no_examples_no_checklist,76,76,76,0,0,0,5,0,177859,10569,185.7214554230004,0,1.0
+openai,openai_gpt_5_6_terra_low,gpt-5.6-terra,codebook_no_examples_with_checklist,76,76,76,0,0,0,2,0,192451,9007,172.30826985000022,0,1.0
+openai,openai_gpt_5_6_terra_low,gpt-5.6-terra,codebook_with_examples_no_checklist,76,76,76,0,0,0,4,0,208487,10108,185.05457739899975,0,1.0
+openai,openai_gpt_5_6_terra_low,gpt-5.6-terra,codebook_with_examples_with_checklist,76,76,76,0,0,0,4,0,223079,8837,181.11270359899754,0,1.0
+openai,openai_gpt_5_6_terra_low,gpt-5.6-terra,direct_target_only,76,76,76,0,0,0,2,0,39843,11353,204.67790908600227,0,1.0

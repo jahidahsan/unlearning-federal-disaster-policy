@@ -1,0 +1,46 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "unlearning_probability": {
+      "title": "Unlearning Probability",
+      "type": "number"
+    },
+    "unlearning_label": {
+      "enum": [
+        "Yes",
+        "No"
+      ],
+      "title": "Unlearning Label",
+      "type": "string"
+    },
+    "target_category": {
+      "enum": [
+        "leadership",
+        "laws_plans_policies",
+        "capabilities",
+        "funds_resources",
+        "misc_organizational",
+        "none"
+      ],
+      "title": "Target Category",
+      "type": "string"
+    },
+    "evidence_quote": {
+      "title": "Evidence Quote",
+      "type": "string"
+    },
+    "rationale": {
+      "title": "Rationale",
+      "type": "string"
+    }
+  },
+  "required": [
+    "unlearning_probability",
+    "unlearning_label",
+    "target_category",
+    "evidence_quote",
+    "rationale"
+  ],
+  "title": "UnlearningOutput",
+  "type": "object"
+}

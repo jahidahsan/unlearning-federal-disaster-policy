@@ -1,0 +1,25 @@
+test,passed,observed,requirement,severity
+analysis-only guard,True,False,False,error
+snapshot locked,True,/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/frozen_runs/prelangchain_v12_discovery_r1_complete/SNAPSHOT_LOCK.json,existing lock,error
+snapshot hashes verified,True,122,122,error
+all required source artifacts present,True,18,18,error
+all JSONL lines valid,True,2578,2578,error
+all corrected completeness groups complete,True,69,69,error
+exactly one EPA document identity,True,1,1,error
+document IDs are unique,True,3,3,error
+EPA substring false positives exposed,True,21,>=1 diagnostic row in the real benchmark,warning
+prompt hash remains immutable,True,107cdf61cc742a491c993b1f1eb27d69c108ce9ef359379664eba471270170af,same before and after adjudication import,error
+analysis gold hash is current,True,d471754373ae679bd04b83a218e1032dc440d63f142d9dd9f187f284993cc1fb,hash of current analysis labels,error
+source and analysis gold hashes recorded,True,"{'source': 'd471754373ae679bd04b83a218e1032dc440d63f142d9dd9f187f284993cc1fb', 'analysis': 'd471754373ae679bd04b83a218e1032dc440d63f142d9dd9f187f284993cc1fb'}",two 64-character SHA-256 values,error
+target parser preserves comma-bearing single label,True,['laws_plans_policies'],one canonical target,error
+target parser supports historical multi-label cells,True,"['laws_plans_policies', 'leadership']",two canonical targets,error
+phase1 rows imported,True,882,>0,error
+phase2 rows imported,True,1008,>0,error
+phase3 rows imported,True,252,>0,error
+stability rows imported,True,630,>0,error
+Krippendorff alpha calculated,True,"[0.5065290009110235, 0.5065290009110235, 0.5756172839506173, 0.5682888540031397, 0.5065290009110235]",all non-null,error
+source selection files preserved,True,"['phase1', 'phase2', 'phase3', 'final']",three frozen source selections,error
+corrected scored datasets exported,True,"['phase1', 'phase2', 'phase3', 'stability']","phase1, phase2, phase3, stability",error
+corrected report exists,True,/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/analysis/prelangchain_posthoc_v1_3_1/reports/prelangchain_posthoc_corrected_report.xlsx,existing workbook,error
+adjudication template exists,True,/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/analysis/prelangchain_posthoc_v1_3_1/adjudication/adjudication_template.xlsx,existing workbook,error
+no final winner on incomplete final gold,True,"['provisional_historical_gold', 'provisional_historical_gold', 'provisional_historical_gold']",no final winner unless final gold is complete,error

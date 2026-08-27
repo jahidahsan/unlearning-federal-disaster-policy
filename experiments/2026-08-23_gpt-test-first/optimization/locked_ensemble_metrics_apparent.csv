@@ -1,0 +1,2 @@
+system,n,positive_prevalence,threshold,predicted_positive_count,tn,fp,fn,tp,accuracy,precision,recall,f1,auroc,auprc,brier
+locked_full_gpt_test_weighted_ensemble_apparent,84,0.5,0.24,23,40,2,21,21,0.7261904761904762,0.9130434782608695,0.5,0.6461538461538462,0.7585034013605442,0.8039906993766964,0.27755072619047627

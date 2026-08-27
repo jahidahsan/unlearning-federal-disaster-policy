@@ -1,0 +1,39 @@
+{
+  "selected_condition_id": "P1_DIRECT__C1_target",
+  "selection_basis": "preregistered constrained ranking",
+  "provisional_gold": true,
+  "phase2_ranking_sha256": "78d7c4e7b646dd244df6d5fd00c183957c6d8eedbc964980fb8f572cc8c8f6cf",
+  "phase2_progress": [
+    {
+      "phase": "phase2",
+      "provider": "openai",
+      "expected_tasks": 252,
+      "successful_tasks": 252,
+      "remaining_tasks": 0,
+      "latest_error_keys": 0,
+      "complete": true,
+      "results_path": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/runs/prelangchain_ab_v1_2_api_hardened/phase2/openai/results.jsonl"
+    },
+    {
+      "phase": "phase2",
+      "provider": "anthropic",
+      "expected_tasks": 252,
+      "successful_tasks": 252,
+      "remaining_tasks": 0,
+      "latest_error_keys": 0,
+      "complete": true,
+      "results_path": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/runs/prelangchain_ab_v1_2_api_hardened/phase2/anthropic/results.jsonl"
+    },
+    {
+      "phase": "phase2",
+      "provider": "gemini",
+      "expected_tasks": 252,
+      "successful_tasks": 252,
+      "remaining_tasks": 0,
+      "latest_error_keys": 0,
+      "complete": true,
+      "results_path": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/runs/prelangchain_ab_v1_2_api_hardened/phase2/gemini/results.jsonl"
+    }
+  ],
+  "created_at_utc": "2026-07-23T22:40:59.656726+00:00"
+}

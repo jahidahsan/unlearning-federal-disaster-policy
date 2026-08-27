@@ -1,0 +1,27 @@
+{
+  "dataset_sha256": "ab203fea011cbf56eb75efcb5a2448c713b7640dc8f1deedfdfe2e9673f34ea0",
+  "source_path": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/data/Unlearning_Codebook_Local_Context_Test_Set.xlsx",
+  "source_file_sha256": "d5ac05ea0b0d1b3b80a5da12cb9beda58bd354b962821b00f19cccaeb7750fd3",
+  "sheet": "GPT Test",
+  "rows": 42,
+  "columns_hashed": [
+    "row_id",
+    "target_text",
+    "document_title",
+    "pdf_page",
+    "section_heading",
+    "paragraph_order",
+    "context_previous_2",
+    "context_previous_1",
+    "context_target",
+    "context_next_1",
+    "context_next_2",
+    "gold_historical",
+    "gold_old_definition",
+    "gold_current_definition",
+    "gold_final_definition",
+    "gold_target",
+    "gold_agency"
+  ],
+  "created_at_utc": "2026-07-23T22:33:45.498132+00:00"
+}

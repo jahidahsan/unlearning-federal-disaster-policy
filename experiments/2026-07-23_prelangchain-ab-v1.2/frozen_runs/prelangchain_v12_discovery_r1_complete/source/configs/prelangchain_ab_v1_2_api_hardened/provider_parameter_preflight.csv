@@ -1,0 +1,4 @@
+provider,passed,transport_keys,temperature_sent,native_seed_sent,firewall_probe_removed
+openai,True,"['input', 'max_output_tokens', 'model', 'prompt_cache_key', 'reasoning', 'store', 'text_format']",,False,"['seed', 'temperature']"
+anthropic,True,"['max_tokens', 'messages', 'model', 'output_format', 'system', 'temperature']",0.0,False,[]
+gemini,True,"['max_output_tokens', 'model', 'response_json_schema_sha256', 'response_mime_type', 'seed', 'system_instruction_sha256', 'temperature', 'thinking_level']",0.0,True,[]

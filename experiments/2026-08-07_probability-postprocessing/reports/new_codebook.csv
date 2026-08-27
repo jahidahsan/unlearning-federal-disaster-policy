@@ -1,0 +1,71 @@
+Code,Definition,Detection Logic,Examples,Positive Clarification,Negative Clarification
+Step 1 -- Binary classification based on unlearning definition,,,,,
+Unlearning (Yes/No),"Unlearning is the deliberate process by which a government agency discards misaligned assumptions, obsolete knowledge, or outdated routines in response to demonstrated failure — here, Hurricane Katrina. It becomes visible in discourse when institutions explicitly problematise a prior practice, justify its abandonment, and signal a departure from established norms.","Does the text explicitly identify a prior policy, assumption, practice, or technical system as inadequate or harmful — AND call for its removal, replacement, or fundamental rethinking?
+
+If YES → code as Unlearning; proceed to Step 2.
+If NO  → do not code; stop here.","""[T]he Federal government should not rely on the traditional layered approach and instead should proactively provide its capabilities and assistance directly to those in need.""
+— White House Report
+
+(Prior assumption explicitly rejected; new approach mandated.)","Code when the text:
+• Names a specific prior assumption, policy, practice, or system as the source of failure.
+• Explicitly calls for abandoning, replacing, dismantling, or fundamentally rethinking it.
+• Frames the departure from past practice as necessary — not merely aspirational.","DO NOT code if:
+• The text only documents what went wrong without calling for change ('the levees failed').
+• The change is purely additive — new resources or capacity added without rejecting prior logic.
+• The text uses 'lessons learned' language that implies improvement, not replacement.
+• A new tool/software is adopted but the underlying governance assumption is unchanged.
+
+BOUNDARY CASE: Problem diagnosis alone ≠ unlearning. 'The command structure was inadequate' is NOT unlearning unless the text also calls for dismantling or replacing that structure."
+STEP 2 — TARGET OF UNLEARNING (assign one per passage),,,,,
+Target (Leadership),"The text questions or redefines the role, authority, or responsibilities of a specific leadership position (e.g., DHS Secretary, FEMA Director, POTUS) in disaster management — not merely who occupies the role, but whether the role itself is fit for purpose.",Does the text call for redefining or redistributing leadership authority — not just replacing the person in the role?,"""[A] single individual directly responsible and accountable to the President must be designated to act as the central focal point to lead and coordinate the overall federal response…""
+ — GAO
+ 
+ (Prior distributed-authority model is rejected in favour of unified accountability.)","Code when the text:
+ • Calls into question whether an existing leadership structure is capable of managing catastrophic events.
+ • Proposes redistributing, consolidating, or redefining authority at the leadership level.
+ • Frames past leadership arrangements as a root cause of failure.","DO NOT code if:
+ • The text recommends appointing a new person to an existing, unchanged role.
+ • Minor reporting-line adjustments are proposed without questioning the underlying authority structure.
+ • Leadership is mentioned only as context, not as the object of change."
+"Target (laws, plans and policies)","The text calls for terminating, replacing, or fundamentally revising a law, regulation, plan, or formal policy that is now seen as harmful, unjust, or structurally inadequate.","Does the text identify a specific law, plan, or policy as harmful or obsolete — and call for its elimination or replacement?","""Removing statutory restrictions on DOD authority to activate Reserve units for catastrophic disaster relief.""
+ — GAO 
+ (Existing statutory constraint identified as harmful; removal explicitly recommended.)","Code when the text:
+ • Calls for eliminating or replacing a specific statute, executive order, plan, or doctrine.
+ • Frames an existing legal or policy arrangement as a root cause of failure.
+ • Proposes dismantling a governance structure, not merely amending it at the margins.","DO NOT code if:
+ • The text proposes reform or better implementation of an existing policy without questioning its underlying logic.
+ • A new plan is added alongside an old one, with no indication the old one is discarded.
+ • The change is a routine policy update with no connection to Katrina-identified failure."
+Target (capabilities),"The text identifies a technical system — model, map, software, infrastructure, training protocol, or engineering standard, assesing dmaage, citizen service, communications, exercise  — as built on obsolete assumptions and calls for its recalibration or replacement.",Does the text identify a specific technical system as misaligned with catastrophic or climate-amplified risk — and call for its revision or replacement?,"""We identified the need for the federal government to upgrade training and exercises for state and local governments specifically geared towards catastrophic disaster response.""
+ — GAO 
+ (Existing training regime is identified as inadequate for catastrophic-scale events; replacement mandated.)","Code when the text:
+ • Identifies a technical system (model, protocol, map, standard) as based on outdated or inadequate assumptions.
+ • Calls for replacing engineering standards, revising risk models, or overhauling training regimes.
+ • Frames the technical failure as rooted in prior assumptions, not just under-resourcing.","DO NOT code if:
+ • The text describes routine maintenance or a standard equipment upgrade with no prior assumption rejected.
+ • New technology is added as a supplement without any existing system being questioned.
+ • The text identifies a gap without calling for the replacement of the system that created the gap."
+Target (funds and resource allocation),"The text calls for changing how disaster funds are allocated, distributed, or governed — not merely requesting more funding, but questioning the rules or structures that govern resource flow.",Does the text identify the existing funds management structure as inadequate — and call for changing how resources are allocated or governed?,"""Federal agencies involved in managing international assistance were not prepared to coordinate, receive, distribute, or account for the assistance… agencies had not planned for the acceptance of international assistance for use in the United States.""
+ — GAO 
+ (Absence of a resource-management framework identified; new procedures explicitly required.)","Code when the text:
+ • Calls for changing the rules, structures, or authorities governing funds distribution.
+ • Identifies an existing allocation logic as a source of inequity or failure.
+ • Proposes dismantling or replacing a resource governance mechanism.","DO NOT code if:
+ • The text only requests additional funding without questioning how existing funds are managed.
+ • A new grant programme is added without any existing allocation logic being rejected.
+ • Funds management approach remains substantively unchanged."
+"Target (misclleanous) organizational culture, communication norms, or inter-agency coordination logics not captured above","The text calls for unlearning in a domain not captured above — such as inter-agency coordination norms, communication protocols, or organisational culture — where a specific prior assumption or practice is explicitly rejected.",Does the text call for discarding a prior assumption or practice in a domain not covered by the four targets above?,Use sparingly. Flag for team discussion if used more than 10% of coded passages.,"Code when the text:
+ • Explicitly rejects a prior norm or practice in coordination, culture, or communication.
+ • Cannot reasonably be assigned to any of the four primary targets.","DO NOT use as a default catch-all. If the passage is ambiguous across targets, assign the closest primary target and note the ambiguity. Reserve this code for genuinely novel domains.
+ 
+ Flag all uses of this code for inter-coder discussion."
+STEP 3 — STAKEHOLDER / AGENCY (assign one per passage),,,,,
+Government Agency,"The specific federal agency, sub-unit, or institutional actor identified in the passage as the subject of unlearning — i.e., the entity whose prior assumption or practice is being rejected.","Does the text name a specific agency, office, or sub-unit as the actor whose prior practice must change?","""[O]ther factors such as leadership and resources may be more important to FEMA future success than organizational placement.""
+ — GAO
+ (FEMA named as the agency whose organisational logic is under scrutiny.)","Code when the text:
+ • Names a specific government agency, office, or legal mechanism as the subject of change.
+ • Code at the most specific level mentioned (e.g., 'FEMA Operations Division', not just 'FEMA').","DO NOT code the agency calling for change (e.g., GAO recommending FEMA reform) — code only the agency whose practices are the object of unlearning."
+CODING PROCEDURE & UNIT OF ANALYSIS,,,,,
+Unit of Analysis,Code at the paragraph level. Do not split a paragraph across multiple codes.,Does the paragraph as a whole constitute an instance of unlearning?,"If a paragraph contains both diagnostic language and a call for change, code the paragraph as Unlearning (Yes).",Code the entire paragraph — do not extract individual sentences.,"If the paragraph only diagnoses a problem without calling for change, do NOT code as unlearning."
+ICA Protocol,"Each coder assigns: (1) Unlearning Yes/No, (2) Target, (3) Agency. Disagreements on any dimension are flagged and resolved by majority or adjudication.",—,Target: Miscellaneous and boundary-case passages should be flagged for team discussion before finalising.,Record all disagreements and resolutions in the ICA log.,Do not adjudicate privately — all boundary cases go to the full team.
+Revised codebook — Pillars replaced by Targets | Depth & Nature dimensions removed | Paragraph-level coding | Boundary cases flagged for team adjudication,,,,,

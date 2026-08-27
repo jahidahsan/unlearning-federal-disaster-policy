@@ -1,0 +1,6 @@
+table,rows,missing_probabilities,probabilities_outside_0_1,duplicate_prediction_keys,label_probability_inconsistent,target_label_inconsistent,evidence_quote_invalid,source_hash_mismatch,codebook_hash_mismatch
+stage1,504,0,0,0,0,2,14,0,0
+stage2,504,0,0,0,0,2,18,0,0
+selected_final_gpt_test,252,0,0,0,0,0,11,0,0
+selected_baseline_gpt_test,252,0,0,0,0,9,7,0,0
+selected_final_gpt_test_all,2031,0,0,0,0,0,47,0,0

@@ -1,0 +1,6 @@
+condition_id,definition_id,codebook_version,prompt_style,label_space,description
+P1_DIRECT,D0_none,none,P1_direct,new,No codebook definition; exposes only the closed output label space.
+P2_D1_OLD,D1_old_broad,old,P2_simple_definition,old,Old broad codebook with a simple probability-classification prompt.
+P2_D2_CURRENT,D2_current_strict,new,P2_simple_definition,new,Current/new strict codebook with a simple probability-classification prompt.
+P3_D1_OLD,D1_old_broad,old,P3_evidence_checklist,old,Old broad codebook with an explicit evidence checklist.
+P3_D2_CURRENT,D2_current_strict,new,P3_evidence_checklist,new,Current/new strict codebook with an explicit evidence checklist.

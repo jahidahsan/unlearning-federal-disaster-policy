@@ -1,0 +1,2 @@
+target_membership_evaluation_ready,final_single_label_target_ready,potential_multilabel_rows,positive_missing_or_unmapped,negative_with_positive_target,unmapped_nonempty_target,unique_raw_gold_targets,interpretation
+False,False,1,26,0,0,4,Historical multi-label targets are scored by set membership; final exact target inference remains blocked until adjudication assigns one target.

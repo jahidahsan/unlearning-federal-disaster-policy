@@ -1,0 +1,66 @@
+{
+  "protocol_version": "prelangchain_ab_v1_2_api_hardened",
+  "adapter_revision": "api_hardened_2026_07_22_r1",
+  "provider": "anthropic",
+  "model_config_sha256": "8090d745697d7da125cd149fd7001c7978c6b4cafdc2156f22e73eec3857c1a2",
+  "prompt_sha256": "6db2ee701b7b22588e44b8b0a4bde991f7bd9fddacaaa7c3e65a758b1d52b915",
+  "schema_sha256": "160ef51b848bbba94ee5996a63b20821792de7b7319a848da6741e11e321f8b6",
+  "adapter_sha256": "a1feedcb46c1c0e2977b7413f0af71dee4d03b5f3e15aef0b94d500a938cc6fa",
+  "request_builder_sha256": "9091f387268b675d96cd646b1a2e28554656d8fd4dceb45d035424ccf7a39814",
+  "parameter_preflight_sha256": "7c51f4ae1e5ba9022d7990cb8dc3a98a9629b726f12163f190172473b7bfca1c",
+  "passed": true,
+  "started_at_utc": "2026-07-22T20:44:04.424770+00:00",
+  "completed_at_utc": "2026-07-22T20:44:04.424786+00:00",
+  "requested_model": "claude-haiku-4-5-20251001",
+  "returned_model": "claude-haiku-4-5-20251001",
+  "request_id": "msg_011CdHkKLaUSgVRcxAGne5CY",
+  "schema_id": "checklist_joint",
+  "schema_valid": true,
+  "prediction": true,
+  "input_tokens": 1904,
+  "output_tokens": 202,
+  "cached_input_tokens": 0,
+  "cache_creation_input_tokens": 0,
+  "reasoning_tokens": 0,
+  "latency_seconds": 2.3758075630000235,
+  "accepted_parameters": {
+    "adapter_revision": "api_hardened_2026_07_22_r1",
+    "temperature_requested": 0.0,
+    "temperature_sent": 0.0,
+    "thinking_sent": false,
+    "max_tokens": 1800,
+    "cache_control_location": "system[0].cache_control",
+    "cache_control": {
+      "type": "ephemeral"
+    },
+    "provider_seed_supported": false,
+    "provider_seed_sent": false,
+    "provider_seed_value": null,
+    "experiment_seed_local_only": 17,
+    "transport_parameter_keys": [
+      "max_tokens",
+      "messages",
+      "model",
+      "output_format",
+      "system",
+      "temperature"
+    ],
+    "parameter_firewall_removed": {}
+  },
+  "sdk_preflight": {
+    "provider": "anthropic",
+    "passed": true,
+    "mock": false,
+    "sdk_version": "0.118.0",
+    "adapter_revision": "api_hardened_2026_07_22_r1",
+    "transport_parameter_keys": [
+      "max_tokens",
+      "messages",
+      "model",
+      "output_format",
+      "system",
+      "temperature"
+    ]
+  },
+  "mock": false
+}

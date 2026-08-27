@@ -1,0 +1,43 @@
+row_id,document_id,document_title,naive_contains_epa,exact_epa_identity,false_positive_from_substring
+P001,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P002,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P003,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P004,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P005,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P006,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P007,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P008,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P009,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P010,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P011,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P012,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P013,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P014,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P015,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P016,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P017,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P018,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P019,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P020,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P021,epa_katrina_lessons,Lessons Learned: EPA’s Response to Hurricane Katrina,True,True,False
+P022,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P023,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P024,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P025,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P026,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P027,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P028,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P029,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P030,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P031,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P032,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P033,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P034,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P035,hurricane_katrina_gao_s_preliminary_observations_regarding_preparedness_response,"Hurricane Katrina: GAO’s Preliminary Observations Regarding Preparedness, Response, and Recovery",True,False,True
+P036,the_katrina_effect_on_american_preparedness_a_report_on_the_lessons_americans_le,The Katrina Effect on American Preparedness — A report on the lessons Americans learned in watching the Katrina catastrophe unfold,True,False,True
+P037,the_katrina_effect_on_american_preparedness_a_report_on_the_lessons_americans_le,The Katrina Effect on American Preparedness — A report on the lessons Americans learned in watching the Katrina catastrophe unfold,True,False,True
+P038,the_katrina_effect_on_american_preparedness_a_report_on_the_lessons_americans_le,The Katrina Effect on American Preparedness — A report on the lessons Americans learned in watching the Katrina catastrophe unfold,True,False,True
+P039,the_katrina_effect_on_american_preparedness_a_report_on_the_lessons_americans_le,The Katrina Effect on American Preparedness — A report on the lessons Americans learned in watching the Katrina catastrophe unfold,True,False,True
+P040,the_katrina_effect_on_american_preparedness_a_report_on_the_lessons_americans_le,The Katrina Effect on American Preparedness — A report on the lessons Americans learned in watching the Katrina catastrophe unfold,True,False,True
+P041,the_katrina_effect_on_american_preparedness_a_report_on_the_lessons_americans_le,The Katrina Effect on American Preparedness — A report on the lessons Americans learned in watching the Katrina catastrophe unfold,True,False,True
+P042,the_katrina_effect_on_american_preparedness_a_report_on_the_lessons_americans_le,The Katrina Effect on American Preparedness — A report on the lessons Americans learned in watching the Katrina catastrophe unfold,True,False,True

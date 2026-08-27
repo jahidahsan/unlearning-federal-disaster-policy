@@ -1,0 +1,7 @@
+condition_id,provider,workflow,rows,target_accuracy_on_gold_positive,binary_plus_target_exact,agency_overlap_accuracy,workflow_complete_rate,stage2_call_rate
+W1_ONE_STAGE,anthropic,W1_one_stage,42,0.03125,0.19047619047619047,0.3,1.0,0.0
+W1_ONE_STAGE,gemini,W1_one_stage,42,0.0,0.23809523809523808,0.25,1.0,0.0
+W1_ONE_STAGE,openai,W1_one_stage,42,0.03125,0.2619047619047619,0.2,1.0,0.0
+W2_BINARY_FIRST,anthropic,W2_binary_first,42,0.0,0.11904761904761904,0.3,1.0,0.38095238095238093
+W2_BINARY_FIRST,gemini,W2_binary_first,42,0.0,0.23809523809523808,0.25,1.0,0.2857142857142857
+W2_BINARY_FIRST,openai,W2_binary_first,42,0.03125,0.2619047619047619,0.3,1.0,0.2857142857142857

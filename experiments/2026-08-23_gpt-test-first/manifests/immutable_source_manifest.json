@@ -1,0 +1,11 @@
+{
+  "source_workbook_path": "/content/drive/MyDrive/Unlearning_Paragraph_Level_LLM_Experiment/paragraph_level_gpt_test_first_v2_20260821/inputs/Unlearning_GPT_Test_Paragraph_Aligned_ALL.xlsx",
+  "source_workbook_sha256": "a148051e24ccab080b35a2404cebddeff24cd7c0aec9b5af1f45c42a39c85d31",
+  "codebook_whole_sheet_sha256": "892a055512cdecccc191a768792ad1182933fb77ca3df31b2a2e4e470549d1e6",
+  "codebook_sheet_name": "Codebook (revised)",
+  "codebook_zero_based_header_row": 1,
+  "gpt_test_zero_based_header_row": 0,
+  "gpt_test_all_zero_based_header_row": 0,
+  "loaded_at_utc": "2026-08-23T14:33:10.861658+00:00",
+  "read_only_policy": "The source workbook and Codebook (revised) sheet are input-only. All experiment outputs are written to separate Drive files."
+}

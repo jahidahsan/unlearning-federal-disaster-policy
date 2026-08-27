@@ -1,0 +1,205 @@
+Use the following revised codebook as the governing definition:
+
+CODE: Step 1 -- Binary classification based on unlearning definition
+
+---
+
+CODE: Unlearning (Yes/No)
+DEFINITION:
+Unlearning refers to the deliberate process by which government agencies discard misaligned assumptions, obsolete knowledge, and outdated routines to address climate change risks. Code when the text explicitly calls for:
+Abandoning, rejecting, undoing, or dismantling an existing policy, assumption, institutional arrangement, or technical approach. Fundamentally rethinking inherited logics because they failed during Hurricane Katrina. Empirically, unlearning becomes visible in discourse when institutions explicitly problematize prior assumptions, justify their abandonment, and signal a departure from established practices.
+DETECTION LOGIC:
+Does this text advocate for change that implies stopping, removing, reconfiguring or replacing a legacy system and its underlying assumptions -- governance, institutions, technical, or infrastructure?
+EXAMPLES:
+As the White House report states, “Ultimately, when a catastrophic incident occurs, regardless of whether the catastrophe has been a warned or is a surprise event, the Federal government should not rely on the traditional layered approach and instead should proactively provide, or ‘push,’ its capabilities and assistance directly to those in need.”
+POSITIVE CLARIFICATION:
+Code when the text explicitly calls for:
+Abandoning, rejecting, undoing, or dismantling an existing policy, assumption, institutional arrangement, or technical approach. Fundamentally rethinking inherited logics because they failed during Hurricane Katrina or similar catastrophic events
+NEGATIVE CLARIFICATION:
+"Do NOT code if:
+The text only discusses “lessons learned,” capacity expansion, or incremental improvement. The change is purely additive without rejecting prior assumptions"
+
+---
+
+CODE: STEP 2 — TARGET OF UNLEARNING (assign one per passage)
+
+---
+
+CODE: Target (Leadership)
+DEFINITION:
+The text questions or redefines the role, authority, or responsibilities of a specific leadership position (e.g., DHS Secretary, FEMA Director, POTUS) in disaster management — not merely who occupies the role, but whether the role itself is fit for purpose.
+DETECTION LOGIC:
+Does the text call for redefining or redistributing leadership authority — not just replacing the person in the role?
+EXAMPLES:
+"[A] single individual directly responsible and accountable to the President must be designated to act as the central focal point to lead and coordinate the overall federal response..."
+ — GAO
+ 
+ (Prior distributed-authority model is rejected in favour of unified accountability.)
+POSITIVE CLARIFICATION:
+Code when the text:
+ • Calls into question whether an existing leadership structure is capable of managing catastrophic events.
+ • Proposes redistributing, consolidating, or redefining authority at the leadership level.
+ • Frames past leadership arrangements as a root cause of failure.
+NEGATIVE CLARIFICATION:
+DO NOT code if:
+ • The text recommends appointing a new person to an existing, unchanged role.
+ • Minor reporting-line adjustments are proposed without questioning the underlying authority structure.
+ • Leadership is mentioned only as context, not as the object of change.
+
+---
+
+CODE: Target (laws, plans and policies)
+DEFINITION:
+The text calls for terminating, replacing, or fundamentally revising a law, regulation, plan, or formal policy that is now seen as harmful, unjust, or structurally inadequate.
+DETECTION LOGIC:
+Does the text identify a specific law, plan, or policy as harmful or obsolete — and call for its elimination or replacement?
+EXAMPLES:
+"Removing statutory restrictions on DOD authority to activate Reserve units for catastrophic disaster relief."
+ — GAO 
+ (Existing statutory constraint identified as harmful; removal explicitly recommended.)
+POSITIVE CLARIFICATION:
+Code when the text:
+ • Calls for eliminating or replacing a specific statute, executive order, plan, or doctrine.
+ • Frames an existing legal or policy arrangement as a root cause of failure.
+ • Proposes dismantling a governance structure, not merely amending it at the margins.
+NEGATIVE CLARIFICATION:
+DO NOT code if:
+ • The text proposes reform or better implementation of an existing policy without questioning its underlying logic.
+ • A new plan is added alongside an old one, with no indication the old one is discarded.
+ • The change is a routine policy update with no connection to Katrina-identified failure.
+
+---
+
+CODE: Target (capabilities)
+DEFINITION:
+The text identifies a technical system — model, map, software, infrastructure, training protocol, or engineering standard, assesing dmaage, citizen service, communications, exercise  — as built on obsolete assumptions and calls for its recalibration or replacement.
+DETECTION LOGIC:
+Does the text identify a specific technical system as misaligned with catastrophic or climate-amplified risk — and call for its revision or replacement?
+EXAMPLES:
+"We identified the need for the federal government to upgrade training and exercises for state and local governments specifically geared towards catastrophic disaster response."
+ — GAO 
+ (Existing training regime is identified as inadequate for catastrophic-scale events; replacement mandated.)
+POSITIVE CLARIFICATION:
+Code when the text:
+ • Identifies a technical system (model, protocol, map, standard) as based on outdated or inadequate assumptions.
+ • Calls for replacing engineering standards, revising risk models, or overhauling training regimes.
+ • Frames the technical failure as rooted in prior assumptions, not just under-resourcing.
+NEGATIVE CLARIFICATION:
+DO NOT code if:
+ • The text describes routine maintenance or a standard equipment upgrade with no prior assumption rejected.
+ • New technology is added as a supplement without any existing system being questioned.
+ • The text identifies a gap without calling for the replacement of the system that created the gap.
+
+---
+
+CODE: Target (funds and resource allocation)
+DEFINITION:
+The text calls for changing how disaster funds are allocated, distributed, or governed — not merely requesting more funding, but questioning the rules or structures that govern resource flow.
+DETECTION LOGIC:
+Does the text identify the existing funds management structure as inadequate — and call for changing how resources are allocated or governed?
+EXAMPLES:
+"Federal agencies involved in managing international assistance were not prepared to coordinate, receive, distribute, or account for the assistance... agencies had not planned for the acceptance of international assistance for use in the United States."
+ — GAO 
+ (Absence of a resource-management framework identified; new procedures explicitly required.)
+POSITIVE CLARIFICATION:
+Code when the text:
+ • Calls for changing the rules, structures, or authorities governing funds distribution.
+ • Identifies an existing allocation logic as a source of inequity or failure.
+ • Proposes dismantling or replacing a resource governance mechanism.
+NEGATIVE CLARIFICATION:
+DO NOT code if:
+ • The text only requests additional funding without questioning how existing funds are managed.
+ • A new grant programme is added without any existing allocation logic being rejected.
+ • Funds management approach remains substantively unchanged.
+
+---
+
+CODE: Target (misclleanous) organizational culture, communication norms, or inter-agency coordination logics not captured above
+DEFINITION:
+The text calls for unlearning in a domain not captured above — such as inter-agency coordination norms, communication protocols, or organisational culture — where a specific prior assumption or practice is explicitly rejected.
+DETECTION LOGIC:
+Does the text call for discarding a prior assumption or practice in a domain not covered by the four targets above?
+EXAMPLES:
+Use sparingly. Flag for team discussion if used more than 10% of coded passages.
+POSITIVE CLARIFICATION:
+Code when the text:
+ • Explicitly rejects a prior norm or practice in coordination, culture, or communication.
+ • Cannot reasonably be assigned to any of the four primary targets.
+NEGATIVE CLARIFICATION:
+DO NOT use as a default catch-all. If the passage is ambiguous across targets, assign the closest primary target and note the ambiguity. Reserve this code for genuinely novel domains.
+ 
+ Flag all uses of this code for inter-coder discussion.
+
+---
+
+CODE: STEP 3 — STAKEHOLDER / AGENCY (assign one per passage)
+
+---
+
+CODE: Government Agency
+DEFINITION:
+The specific federal agency, sub-unit, or institutional actor identified in the passage as the subject of unlearning — i.e., the entity whose prior assumption or practice is being rejected.
+DETECTION LOGIC:
+Does the text name a specific agency, office, or sub-unit as the actor whose prior practice must change?
+EXAMPLES:
+"[O]ther factors such as leadership and resources may be more important to FEMA future success than organizational placement."
+ — GAO
+ (FEMA named as the agency whose organisational logic is under scrutiny.)
+POSITIVE CLARIFICATION:
+Code when the text:
+ • Names a specific government agency, office, or legal mechanism as the subject of change.
+ • Code at the most specific level mentioned (e.g., 'FEMA Operations Division', not just 'FEMA').
+NEGATIVE CLARIFICATION:
+DO NOT code the agency calling for change (e.g., GAO recommending FEMA reform) — code only the agency whose practices are the object of unlearning.
+
+---
+
+CODE: CODING PROCEDURE & UNIT OF ANALYSIS
+
+---
+
+CODE: Unit of Analysis
+DEFINITION:
+Code at the paragraph level. Do not split a paragraph across multiple codes.
+DETECTION LOGIC:
+Does the paragraph as a whole constitute an instance of unlearning?
+EXAMPLES:
+If a paragraph contains both diagnostic language and a call for change, code the paragraph as Unlearning (Yes).
+POSITIVE CLARIFICATION:
+Code the entire paragraph — do not extract individual sentences.
+NEGATIVE CLARIFICATION:
+If the paragraph only diagnoses a problem without calling for change, do NOT code as unlearning.
+
+---
+
+CODE: ICA Protocol
+DEFINITION:
+Each coder assigns: (1) Unlearning Yes/No, (2) Target, (3) Agency. Disagreements on any dimension are flagged and resolved by majority or adjudication.
+DETECTION LOGIC:
+—
+EXAMPLES:
+Target: Miscellaneous and boundary-case passages should be flagged for team discussion before finalising.
+POSITIVE CLARIFICATION:
+Record all disagreements and resolutions in the ICA log.
+NEGATIVE CLARIFICATION:
+Do not adjudicate privately — all boundary cases go to the full team.
+
+---
+
+CODE: Revised codebook — Pillars replaced by Targets | Depth & Nature dimensions removed | Paragraph-level coding | Boundary cases flagged for team adjudication
+
+Return:
+- unlearning_probability: a number from 0 through 1 representing P(Unlearning=Yes);
+- unlearning_label: "Yes" or "No";
+- target_category: one of leadership, laws_plans_policies, capabilities,
+  funds_resources, misc_organizational, none;
+- evidence_quote: the shortest exact quote from the target passage that supports the label,
+  or an empty string when no exact evidentiary phrase exists;
+- rationale: a concise explanation grounded only in the target passage.
+
+The binary label should ordinarily be Yes when probability is at least 0.50 and No otherwise.
+Do not wrap JSON in Markdown.
+
+TARGET PASSAGE START
+{{TARGET_PASSAGE}}
+TARGET PASSAGE END

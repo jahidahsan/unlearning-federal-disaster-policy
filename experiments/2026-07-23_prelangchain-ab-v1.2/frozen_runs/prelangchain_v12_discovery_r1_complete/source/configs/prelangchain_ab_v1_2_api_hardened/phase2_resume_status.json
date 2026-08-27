@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-07-23T22:40:48.546123+00:00",
+  "protocol_version": "prelangchain_ab_v1_2_api_hardened",
+  "dataset_sha256": "ab203fea011cbf56eb75efcb5a2448c713b7640dc8f1deedfdfe2e9673f34ea0",
+  "progress": [
+    {
+      "phase": "phase2",
+      "provider": "openai",
+      "expected_tasks": 252,
+      "successful_tasks": 252,
+      "remaining_tasks": 0,
+      "latest_error_keys": 0,
+      "complete": true,
+      "results_path": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/runs/prelangchain_ab_v1_2_api_hardened/phase2/openai/results.jsonl"
+    },
+    {
+      "phase": "phase2",
+      "provider": "anthropic",
+      "expected_tasks": 252,
+      "successful_tasks": 252,
+      "remaining_tasks": 0,
+      "latest_error_keys": 0,
+      "complete": true,
+      "results_path": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/runs/prelangchain_ab_v1_2_api_hardened/phase2/anthropic/results.jsonl"
+    },
+    {
+      "phase": "phase2",
+      "provider": "gemini",
+      "expected_tasks": 252,
+      "successful_tasks": 252,
+      "remaining_tasks": 0,
+      "latest_error_keys": 0,
+      "complete": true,
+      "results_path": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/runs/prelangchain_ab_v1_2_api_hardened/phase2/gemini/results.jsonl"
+    }
+  ]
+}

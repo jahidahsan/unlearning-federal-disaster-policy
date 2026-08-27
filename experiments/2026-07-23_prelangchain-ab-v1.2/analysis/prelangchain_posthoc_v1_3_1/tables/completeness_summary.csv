@@ -1,0 +1,7 @@
+phase,source,groups,complete_groups,expected_rows,observed_rows,all_complete
+phase1,raw paid calls,21,21,882,882,True
+phase2,raw paid calls,18,18,756,756,True
+phase2_reused_c1,reused Phase 1 calls,6,6,252,252,True
+phase3,conditional raw paid calls,3,3,40,40,True
+phase3,raw paid calls,6,6,252,252,True
+stability,raw paid calls,15,15,630,630,True

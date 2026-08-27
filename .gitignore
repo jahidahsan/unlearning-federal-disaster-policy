@@ -1,0 +1,29 @@
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Python and notebook scratch files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local or unfinished work must not enter a verified release
+local_runs/
+working/
+experiments/*langchain*work_in_progress*/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary exports
+~$*
+*.tmp
+*.bak

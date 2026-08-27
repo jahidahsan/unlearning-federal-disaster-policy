@@ -1,0 +1,181 @@
+{
+  "validated_at_utc": "2026-08-23T17:05:23.672376+00:00",
+  "hard_failures": [],
+  "passed": true,
+  "source_workbook_sha256": "a148051e24ccab080b35a2404cebddeff24cd7c0aec9b5af1f45c42a39c85d31",
+  "codebook_whole_sheet_sha256": "892a055512cdecccc191a768792ad1182933fb77ca3df31b2a2e4e470549d1e6",
+  "final_prompt_name": "codebook_no_examples_with_checklist",
+  "final_prompt_hash": "5ef0ed097ed63718a949e101ae68ad12b372d8fb0b0f5d1f6902d6007c2fa4c9",
+  "selected_run_names": [
+    "openai_gpt_5_6_terra_low",
+    "anthropic_claude_haiku_4_5_no_thinking",
+    "google_gemini_3_1_flash_lite_low"
+  ],
+  "locked_threshold": 0.24,
+  "locked_weights": {
+    "openai_gpt_5_6_terra_low": 0.35,
+    "anthropic_claude_haiku_4_5_no_thinking": 0.0,
+    "google_gemini_3_1_flash_lite_low": 0.65
+  },
+  "completion_audit": [
+    {
+      "stage": "stage1_examples_ab_gpt_test",
+      "dataset": "GPT Test",
+      "prompt_names": "codebook_no_examples_no_checklist; codebook_with_examples_no_checklist",
+      "run_names": "openai_gpt_5_6_terra_low; anthropic_claude_haiku_4_5_no_thinking; google_gemini_3_1_flash_lite_low",
+      "expected_materialized_rows": 504,
+      "observed_materialized_rows": 504,
+      "missing_rows": 0,
+      "duplicate_materialized_keys": 0,
+      "complete": true
+    },
+    {
+      "stage": "stage2_checklist_ab_gpt_test",
+      "dataset": "GPT Test",
+      "prompt_names": "codebook_no_examples_no_checklist; codebook_no_examples_with_checklist",
+      "run_names": "openai_gpt_5_6_terra_low; anthropic_claude_haiku_4_5_no_thinking; google_gemini_3_1_flash_lite_low",
+      "expected_materialized_rows": 504,
+      "observed_materialized_rows": 504,
+      "missing_rows": 0,
+      "duplicate_materialized_keys": 0,
+      "complete": true
+    },
+    {
+      "stage": "final_prompt_all_candidates_gpt_test",
+      "dataset": "GPT Test",
+      "prompt_names": "codebook_no_examples_with_checklist",
+      "run_names": "openai_gpt_5_6_terra_low; anthropic_claude_haiku_4_5_no_thinking; google_gemini_3_1_flash_lite_low",
+      "expected_materialized_rows": 252,
+      "observed_materialized_rows": 252,
+      "missing_rows": 0,
+      "duplicate_materialized_keys": 0,
+      "complete": true
+    },
+    {
+      "stage": "selected_models_final_prompt_gpt_test",
+      "dataset": "GPT Test",
+      "prompt_names": "codebook_no_examples_with_checklist",
+      "run_names": "openai_gpt_5_6_terra_low; anthropic_claude_haiku_4_5_no_thinking; google_gemini_3_1_flash_lite_low",
+      "expected_materialized_rows": 252,
+      "observed_materialized_rows": 252,
+      "missing_rows": 0,
+      "duplicate_materialized_keys": 0,
+      "complete": true
+    },
+    {
+      "stage": "selected_models_direct_baseline_gpt_test",
+      "dataset": "GPT Test",
+      "prompt_names": "direct_target_only",
+      "run_names": "openai_gpt_5_6_terra_low; anthropic_claude_haiku_4_5_no_thinking; google_gemini_3_1_flash_lite_low",
+      "expected_materialized_rows": 252,
+      "observed_materialized_rows": 252,
+      "missing_rows": 0,
+      "duplicate_materialized_keys": 0,
+      "complete": true
+    },
+    {
+      "stage": "selected_models_final_prompt_gpt_test_all",
+      "dataset": "GPT Test ALL",
+      "prompt_names": "codebook_no_examples_with_checklist",
+      "run_names": "openai_gpt_5_6_terra_low; anthropic_claude_haiku_4_5_no_thinking; google_gemini_3_1_flash_lite_low",
+      "expected_materialized_rows": 2031,
+      "observed_materialized_rows": 2031,
+      "missing_rows": 0,
+      "duplicate_materialized_keys": 0,
+      "complete": true
+    }
+  ],
+  "prediction_integrity": [
+    {
+      "table": "stage1",
+      "rows": 504,
+      "missing_probabilities": 0,
+      "probabilities_outside_0_1": 0,
+      "duplicate_prediction_keys": 0,
+      "label_probability_inconsistent": 0,
+      "target_label_inconsistent": 2,
+      "evidence_quote_invalid": 14,
+      "source_hash_mismatch": 0,
+      "codebook_hash_mismatch": 0
+    },
+    {
+      "table": "stage2",
+      "rows": 504,
+      "missing_probabilities": 0,
+      "probabilities_outside_0_1": 0,
+      "duplicate_prediction_keys": 0,
+      "label_probability_inconsistent": 0,
+      "target_label_inconsistent": 2,
+      "evidence_quote_invalid": 18,
+      "source_hash_mismatch": 0,
+      "codebook_hash_mismatch": 0
+    },
+    {
+      "table": "selected_final_gpt_test",
+      "rows": 252,
+      "missing_probabilities": 0,
+      "probabilities_outside_0_1": 0,
+      "duplicate_prediction_keys": 0,
+      "label_probability_inconsistent": 0,
+      "target_label_inconsistent": 0,
+      "evidence_quote_invalid": 11,
+      "source_hash_mismatch": 0,
+      "codebook_hash_mismatch": 0
+    },
+    {
+      "table": "selected_baseline_gpt_test",
+      "rows": 252,
+      "missing_probabilities": 0,
+      "probabilities_outside_0_1": 0,
+      "duplicate_prediction_keys": 0,
+      "label_probability_inconsistent": 0,
+      "target_label_inconsistent": 9,
+      "evidence_quote_invalid": 7,
+      "source_hash_mismatch": 0,
+      "codebook_hash_mismatch": 0
+    },
+    {
+      "table": "selected_final_gpt_test_all",
+      "rows": 2031,
+      "missing_probabilities": 0,
+      "probabilities_outside_0_1": 0,
+      "duplicate_prediction_keys": 0,
+      "label_probability_inconsistent": 0,
+      "target_label_inconsistent": 0,
+      "evidence_quote_invalid": 47,
+      "source_hash_mismatch": 0,
+      "codebook_hash_mismatch": 0
+    }
+  ],
+  "source_integrity": [
+    {
+      "object": "archived_source_workbook",
+      "hash_at_load": "a148051e24ccab080b35a2404cebddeff24cd7c0aec9b5af1f45c42a39c85d31",
+      "hash_at_final_audit": "a148051e24ccab080b35a2404cebddeff24cd7c0aec9b5af1f45c42a39c85d31",
+      "unchanged": true
+    },
+    {
+      "object": "Codebook (revised) whole sheet",
+      "hash_at_load": "892a055512cdecccc191a768792ad1182933fb77ca3df31b2a2e4e470549d1e6",
+      "hash_at_final_audit": "892a055512cdecccc191a768792ad1182933fb77ca3df31b2a2e4e470549d1e6",
+      "unchanged": true
+    }
+  ],
+  "final_all_authorization": [
+    {
+      "final_all_rows": 2031,
+      "unique_prompt_names": 1,
+      "prompt_is_locked_final": true,
+      "observed_run_names": "anthropic_claude_haiku_4_5_no_thinking; google_gemini_3_1_flash_lite_low; openai_gpt_5_6_terra_low",
+      "expected_run_names": "anthropic_claude_haiku_4_5_no_thinking; google_gemini_3_1_flash_lite_low; openai_gpt_5_6_terra_low",
+      "run_names_authorized": true,
+      "one_prediction_per_selected_model_per_passage": true
+    }
+  ],
+  "nonfatal_output_flags": {
+    "label_probability_inconsistent": 0,
+    "target_label_inconsistent": 13,
+    "evidence_quote_invalid": 97,
+    "note": "These are retained as audit flags rather than silently repaired or converted to negative predictions."
+  }
+}

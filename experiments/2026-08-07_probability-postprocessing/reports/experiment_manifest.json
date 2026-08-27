@@ -1,0 +1,121 @@
+{
+  "protocol_version": "phase1_probability_postprocessing_v1",
+  "prompt_revision": "2026-08-07_r1",
+  "created_utc": "2026-08-07T11:27:36.850122+00:00",
+  "demo_mode": false,
+  "mock_provider": false,
+  "benchmark_source": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/data/Unlearning_Codebook_Local_Context_Test_Set.xlsx::GPT Test",
+  "old_codebook_source": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/data/Unlearning_Codebook_Local_Context_Test_Set.xlsx::Codebook",
+  "new_codebook_source": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/data/Unlearning_Codebook_Local_Context_Test_Set.xlsx::Codebook",
+  "labels_only_baseline_path": null,
+  "dataset_sha256": "b22dbae86f4dd93614c8ffaa2a66e1b6b9f6def5fa46a26ab79e99af30f169e1",
+  "benchmark_rows": 42,
+  "historical_gold_shared_between_codebooks": true,
+  "conditions_to_run": [
+    "P1_DIRECT",
+    "P2_D1_OLD",
+    "P2_D2_CURRENT",
+    "P3_D1_OLD",
+    "P3_D2_CURRENT"
+  ],
+  "seed_condition_pairs": [
+    [
+      17,
+      "P1_DIRECT"
+    ],
+    [
+      17,
+      "P2_D1_OLD"
+    ],
+    [
+      17,
+      "P2_D2_CURRENT"
+    ],
+    [
+      17,
+      "P3_D1_OLD"
+    ],
+    [
+      17,
+      "P3_D2_CURRENT"
+    ]
+  ],
+  "provider_configs": {
+    "openai": {
+      "enabled": true,
+      "model": "gpt-5.6-terra",
+      "max_output_tokens": 2200,
+      "reasoning_effort": "low",
+      "sleep_seconds": 0.15,
+      "input_usd_per_million": null,
+      "output_usd_per_million": null
+    },
+    "anthropic": {
+      "enabled": true,
+      "model": "claude-haiku-4-5-20251001",
+      "max_output_tokens": 2200,
+      "sleep_seconds": 0.15,
+      "input_usd_per_million": null,
+      "output_usd_per_million": null
+    },
+    "gemini": {
+      "enabled": true,
+      "model": "gemini-3.1-flash-lite",
+      "max_output_tokens": 2200,
+      "thinking_level": "low",
+      "sleep_seconds": 0.15,
+      "input_usd_per_million": null,
+      "output_usd_per_million": null
+    }
+  },
+  "probability_semantics": "elicited_model_probabilities_not_native_token_logprobs",
+  "threshold_objective": "f1",
+  "specificity_floor": 0.8,
+  "cv_splits": 5,
+  "cv_repeats": 20,
+  "expected_benchmark_rows": 42,
+  "expected_dataset_sha256": null,
+  "raw_jsonl_files": {
+    "openai": "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/runs/phase1_probability_postprocessing_v1__openai__results.jsonl",
+    "anthropic": "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/runs/phase1_probability_postprocessing_v1__anthropic__results.jsonl",
+    "gemini": "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/runs/phase1_probability_postprocessing_v1__gemini__results.jsonl"
+  },
+  "excel_report": "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/Unlearning_Phase1_Probability_Postprocessing_Report.xlsx",
+  "csv_files": [
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/condition_registry.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/run_plan.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/coverage_audit.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/probability_rows.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/ensemble_rows.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/raw_binary_summary.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/selected_binary_summary.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/calibration_tables.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/postprocess_rows.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/postprocess_folds.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/postprocess_summary.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/exploratory_best.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/multiclass_summary.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/review_queue.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/coverage_accuracy.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/historical_reference.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/historical_comparison.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/benchmark_canonical.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/old_codebook.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/new_codebook.csv",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/prompt_audit.csv"
+  ],
+  "plot_files": [
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/plots/01_historical_vs_probability_f1.png",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/plots/02_reliability_p1_direct.png",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/plots/02_reliability_p2_d1_old.png",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/plots/02_reliability_p2_d2_current.png",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/plots/02_reliability_p3_d1_old.png",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/plots/02_reliability_p3_d2_current.png",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/plots/03_coverage_accuracy_p1_direct.png",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/plots/03_coverage_accuracy_p2_d1_old.png",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/plots/03_coverage_accuracy_p2_d2_current.png",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/plots/03_coverage_accuracy_p3_d1_old.png",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/plots/03_coverage_accuracy_p3_d2_current.png",
+    "/content/drive/MyDrive/Unlearning_Project/phase1_probability_v1/reports/plots/04_multiclass_macro_f1.png"
+  ]
+}

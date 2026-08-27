@@ -1,0 +1,10 @@
+{
+  "selected_condition_ids": [
+    "P1_DIRECT",
+    "P3_D2_CURRENT"
+  ],
+  "selection_basis": "preregistered constrained ranking against common-final gold",
+  "provisional_gold": true,
+  "created_at_utc": "2026-07-22T21:40:58.573684+00:00",
+  "phase1_ranking_sha256": "52f8a5ecf0e60ed480f97c1f9bbf06612247be7051f39555879f2fb46bf3f107"
+}

@@ -1,0 +1,7 @@
+provider,run_name,cache_source_dataset,materialized_rows,unique_texts,reused_from_gpt_test
+anthropic,anthropic_claude_haiku_4_5_no_thinking,GPT Test,79,79,True
+anthropic,anthropic_claude_haiku_4_5_no_thinking,GPT Test ALL,598,598,False
+google,google_gemini_3_1_flash_lite_low,GPT Test,79,79,True
+google,google_gemini_3_1_flash_lite_low,GPT Test ALL,598,598,False
+openai,openai_gpt_5_6_terra_low,GPT Test,79,79,True
+openai,openai_gpt_5_6_terra_low,GPT Test ALL,598,598,False

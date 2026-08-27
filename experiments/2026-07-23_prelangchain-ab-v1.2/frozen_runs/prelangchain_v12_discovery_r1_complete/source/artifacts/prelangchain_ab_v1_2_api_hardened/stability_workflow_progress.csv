@@ -1,0 +1,4 @@
+provider,workflow,expected_primary,successful_primary,expected_positive_stage2,successful_positive_stage2,complete
+openai,W1_one_stage,210,210,0,0,True
+anthropic,W1_one_stage,210,210,0,0,True
+gemini,W1_one_stage,210,210,0,0,True

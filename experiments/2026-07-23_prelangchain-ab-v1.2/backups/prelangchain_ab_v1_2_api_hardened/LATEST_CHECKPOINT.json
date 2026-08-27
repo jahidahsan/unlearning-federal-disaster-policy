@@ -1,0 +1,69 @@
+{
+  "checkpoint_created_at_utc": "2026-07-22T23:55:30.218618+00:00",
+  "protocol_version": "prelangchain_ab_v1_2_api_hardened",
+  "adapter_revision": "api_hardened_2026_07_22_r1",
+  "source_project_root": "/content",
+  "drive_project_root": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace",
+  "source_roots": {
+    "runs": "/content/runs/prelangchain_ab_v1_2_api_hardened",
+    "artifacts": "/content/artifacts/prelangchain_ab_v1_2_api_hardened",
+    "reports": "/content/reports/prelangchain_ab_v1_2_api_hardened",
+    "configs": "/content/configs/prelangchain_ab_v1_2_api_hardened"
+  },
+  "destination_roots": {
+    "runs": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/runs/prelangchain_ab_v1_2_api_hardened",
+    "artifacts": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/artifacts/prelangchain_ab_v1_2_api_hardened",
+    "reports": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/reports/prelangchain_ab_v1_2_api_hardened",
+    "configs": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/configs/prelangchain_ab_v1_2_api_hardened"
+  },
+  "input_workbook_on_drive": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/data/Unlearning_Codebook_Local_Context_Test_Set.xlsx",
+  "dataset_sha256": "ab203fea011cbf56eb75efcb5a2448c713b7640dc8f1deedfdfe2e9673f34ea0",
+  "run_replicate_id": "r1",
+  "active_phases": [
+    "phase2"
+  ],
+  "active_seeds": [
+    17
+  ],
+  "stability_seeds": [
+    17,
+    43,
+    101,
+    211,
+    307
+  ],
+  "enabled_providers": [
+    "openai",
+    "anthropic",
+    "gemini"
+  ],
+  "phase1_selection_file_exists": true,
+  "phase2_selection_file_exists": false,
+  "saved_dataframe_names": [
+    "PHASE1_ALIGNED_METRICS",
+    "PHASE1_ANTHROPIC_RAW",
+    "PHASE1_DEFINITION_TRADEOFF",
+    "PHASE1_DOCUMENT_METRICS",
+    "PHASE1_EPA_DIAGNOSTICS",
+    "PHASE1_GEE",
+    "PHASE1_GEMINI_RAW",
+    "PHASE1_MCNEMAR",
+    "PHASE1_OPENAI_RAW",
+    "PHASE1_PROVIDER_METRICS",
+    "PHASE1_RANKING",
+    "PHASE1_REGISTRY",
+    "PHASE1_SCHEDULE",
+    "PHASE1_SCORED",
+    "PHASE2_ANTHROPIC_RAW",
+    "PHASE2_GEMINI_RAW",
+    "PHASE2_OPENAI_RAW"
+  ],
+  "saved_selection_variables": [
+    "PHASE1_SELECTION"
+  ],
+  "manifest_path": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/backups/prelangchain_ab_v1_2_api_hardened/checkpoint_manifest_20260722T235530Z.csv",
+  "files_copied": 41,
+  "files_unchanged": 0,
+  "files_exported": 17,
+  "total_manifest_records": 58
+}

@@ -1,0 +1,57 @@
+{
+  "stage": "stage1_examples_ab",
+  "selection_dataset": "GPT Test",
+  "selection_scope": "all_rows",
+  "selection_threshold": 0.5,
+  "primary_selection_metric": "arithmetic mean of model-level precision",
+  "tie_breakers": [
+    "mean_recall",
+    "mean_f1",
+    "mean_auprc",
+    "mean_auroc",
+    "mean_accuracy",
+    "lower_mean_brier",
+    "lexical_prompt_name"
+  ],
+  "winner_prompt_name": "codebook_no_examples_no_checklist",
+  "winner_prompt_hash": "606c2c59c87cbb99cf42d3aac351a881ecbf0328ca0c2ef249fd9da313710dfe",
+  "winner_include_examples": false,
+  "candidate_run_names": [
+    "openai_gpt_5_6_terra_low",
+    "anthropic_claude_haiku_4_5_no_thinking",
+    "google_gemini_3_1_flash_lite_low"
+  ],
+  "selection_summary": [
+    {
+      "prompt_name": "codebook_no_examples_no_checklist",
+      "prompt_hash": "606c2c59c87cbb99cf42d3aac351a881ecbf0328ca0c2ef249fd9da313710dfe",
+      "mean_precision": 0.7938498699368264,
+      "mean_recall": 0.29365079365079366,
+      "mean_f1": 0.42111715445048775,
+      "mean_auroc": 0.6925547996976569,
+      "mean_auprc": 0.6865788581286013,
+      "mean_accuracy": 0.6031746031746031,
+      "mean_brier": 0.27639920634920634,
+      "model_configurations": 3,
+      "providers": 3
+    },
+    {
+      "prompt_name": "codebook_with_examples_no_checklist",
+      "prompt_hash": "c81e46faac5d0f8d24ff99cf635f491a89e69c02d901ccedbc210e3f59965053",
+      "mean_precision": 0.7511648745519713,
+      "mean_recall": 0.35714285714285715,
+      "mean_f1": 0.47222291281660295,
+      "mean_auroc": 0.7241118669690098,
+      "mean_auprc": 0.7162686371331057,
+      "mean_accuracy": 0.6111111111111112,
+      "mean_brier": 0.25436309523809525,
+      "model_configurations": 3,
+      "providers": 3
+    }
+  ],
+  "inference_status": "Deferred to dedicated Stage 1 statistical-inference cell",
+  "inference_interpretation": "Prompt selection was based only on the prespecified mean-precision rule. Statistical inference is reported separately and does not alter the winner.",
+  "source_workbook_sha256": "a148051e24ccab080b35a2404cebddeff24cd7c0aec9b5af1f45c42a39c85d31",
+  "codebook_whole_sheet_sha256": "892a055512cdecccc191a768792ad1182933fb77ca3df31b2a2e4e470549d1e6",
+  "created_at_utc": "2026-08-23T14:33:39.835138+00:00"
+}

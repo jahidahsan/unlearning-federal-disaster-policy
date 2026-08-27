@@ -1,0 +1,21 @@
+definition_id,name,status,operational_text,scientific_role,sha256
+D0_none,No supplied definition,control,,Direct-prompt baseline; ordinary model understanding.,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+D1_old_broad,Old broad operational definition,historical treatment,"BROAD HISTORICAL OPERATIONALIZATION
+
+Organizational unlearning is evidenced when a government organization reconsiders, discards, realigns, or merges established knowledge, assumptions, routines, roles, policies, capabilities, resources, or organizational arrangements after experience or failure.
+
+Qualifying modes include epistemic reconsidering, normative discarding, technical realignment, and integrative merging. A passage may be positive even when it describes strategic integration, revised coordination, changed roles, technical adaptation, or additive institutional change rather than literal removal. Diagnosis alone is insufficient, but explicit words such as abandon or replace are not required.",Recover the broader construct used in early annotations.,7531f2c94a782ca6a2642e01fca30d3bd631f94fb2a4e8fad4a90e82dfad513e
+D2_current_strict,Current strict operational definition,current treatment,"CURRENT STRICT OPERATIONALIZATION
+
+Organizational unlearning is present only when the passage identifies an earlier assumption, policy, practice, role arrangement, capability, resource logic, routine, or system as inadequate and indicates a meaningful departure from it through rejection, replacement, removal, abandonment, suspension, redistribution of authority, movement away from business as usual, or fundamental rethinking.
+
+Diagnosis, lessons-learned language, better implementation, extra training, extra staff, added equipment, more resources, and additive capacity are not sufficient unless the earlier approach being displaced is identifiable. Ordinary learning, reform, innovation, and improvement without discontinuity are No.",Create a sharp boundary between learning/reform and unlearning.,258f6556333fc5521c03d9aea3d43626ee22e7480b522f5e4c6729122e9e85ad
+D3_provisional_adaptive,Provisional adaptive-reconfiguration definition,exploratory candidate; requires later human adjudication,"PROVISIONAL ADAPTIVE-RECONFIGURATION OPERATIONALIZATION
+
+Organizational unlearning is present through either route.
+
+ROUTE A — SUBTRACTIVE DISCONTINUITY: an identifiable earlier assumption, policy, practice, role arrangement, capability, resource logic, routine, or system is judged inadequate and is rejected, replaced, removed, abandoned, suspended, fundamentally rethought, or has authority redistributed.
+
+ROUTE B — ADAPTIVE RECONFIGURATION: after a demonstrated failure, duplication, ambiguity, mismatch, or operational breakdown, the organization durably reconfigures formal roles, responsibility boundaries, coordination protocols, memoranda, standard operating procedures, decision rights, information routines, or technical operating routines for future events. The target must describe the institutionalized reconfiguration, not merely the problem.
+
+Training, user guides, extra staff, equipment, laboratories, funding, or resources alone remain No. They count only when embedded in and subordinate to a qualifying change in the governing role, protocol, standard, authority structure, or routine. Temporary workarounds, implementation of an unchanged approach, diagnosis alone, and generic plans to improve remain No.",Test whether EPA recall can improve without treating all additive capacity as unlearning.,99af0841b61738d090c0ecccff0f9c77d35f487944d743c52fa3dc11fcf595d5

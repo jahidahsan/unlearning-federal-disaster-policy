@@ -1,0 +1,7 @@
+provider,run_name,model,prompt_name,logical_rows,cached_rows,estimated_input_tokens,estimated_output_tokens,rough_estimated_cost_usd,new_calls
+anthropic,anthropic_claude_haiku_4_5_no_thinking,claude-haiku-4-5-20251001,codebook_no_examples_no_checklist,84,84,239377,15120,0.314977,0
+anthropic,anthropic_claude_haiku_4_5_no_thinking,claude-haiku-4-5-20251001,codebook_with_examples_no_checklist,84,84,288049,15120,0.363649,0
+google,google_gemini_3_1_flash_lite_low,gemini-3.1-flash-lite,codebook_no_examples_no_checklist,84,84,239377,15120,0.08252425,0
+google,google_gemini_3_1_flash_lite_low,gemini-3.1-flash-lite,codebook_with_examples_no_checklist,84,84,288049,15120,0.09469225,0
+openai,openai_gpt_5_6_terra_low,gpt-5.6-terra,codebook_no_examples_no_checklist,84,84,239377,15120,0.660194,0
+openai,openai_gpt_5_6_terra_low,gpt-5.6-terra,codebook_with_examples_no_checklist,84,84,288049,15120,0.757538,0

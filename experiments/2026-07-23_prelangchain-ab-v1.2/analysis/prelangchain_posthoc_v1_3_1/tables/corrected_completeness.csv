@@ -1,0 +1,70 @@
+phase,provider,condition_id,stage,seed,expected_rows,observed_rows,complete,source
+phase1,openai,P1_DIRECT,joint,17,42,42,True,raw paid calls
+phase1,openai,P2_D1_OLD,joint,17,42,42,True,raw paid calls
+phase1,openai,P2_D2_CURRENT,joint,17,42,42,True,raw paid calls
+phase1,openai,P2_D3_ADAPTIVE,joint,17,42,42,True,raw paid calls
+phase1,openai,P3_D1_OLD,joint,17,42,42,True,raw paid calls
+phase1,openai,P3_D2_CURRENT,joint,17,42,42,True,raw paid calls
+phase1,openai,P3_D3_ADAPTIVE,joint,17,42,42,True,raw paid calls
+phase1,anthropic,P1_DIRECT,joint,17,42,42,True,raw paid calls
+phase1,anthropic,P2_D1_OLD,joint,17,42,42,True,raw paid calls
+phase1,anthropic,P2_D2_CURRENT,joint,17,42,42,True,raw paid calls
+phase1,anthropic,P2_D3_ADAPTIVE,joint,17,42,42,True,raw paid calls
+phase1,anthropic,P3_D1_OLD,joint,17,42,42,True,raw paid calls
+phase1,anthropic,P3_D2_CURRENT,joint,17,42,42,True,raw paid calls
+phase1,anthropic,P3_D3_ADAPTIVE,joint,17,42,42,True,raw paid calls
+phase1,gemini,P1_DIRECT,joint,17,42,42,True,raw paid calls
+phase1,gemini,P2_D1_OLD,joint,17,42,42,True,raw paid calls
+phase1,gemini,P2_D2_CURRENT,joint,17,42,42,True,raw paid calls
+phase1,gemini,P2_D3_ADAPTIVE,joint,17,42,42,True,raw paid calls
+phase1,gemini,P3_D1_OLD,joint,17,42,42,True,raw paid calls
+phase1,gemini,P3_D2_CURRENT,joint,17,42,42,True,raw paid calls
+phase1,gemini,P3_D3_ADAPTIVE,joint,17,42,42,True,raw paid calls
+phase2,openai,P1_DIRECT__C2_metadata,joint,17,42,42,True,raw paid calls
+phase2,openai,P1_DIRECT__C3_plusminus1,joint,17,42,42,True,raw paid calls
+phase2,openai,P1_DIRECT__C4_plusminus2,joint,17,42,42,True,raw paid calls
+phase2,openai,P3_D2_CURRENT__C2_metadata,joint,17,42,42,True,raw paid calls
+phase2,openai,P3_D2_CURRENT__C3_plusminus1,joint,17,42,42,True,raw paid calls
+phase2,openai,P3_D2_CURRENT__C4_plusminus2,joint,17,42,42,True,raw paid calls
+phase2,anthropic,P1_DIRECT__C2_metadata,joint,17,42,42,True,raw paid calls
+phase2,anthropic,P1_DIRECT__C3_plusminus1,joint,17,42,42,True,raw paid calls
+phase2,anthropic,P1_DIRECT__C4_plusminus2,joint,17,42,42,True,raw paid calls
+phase2,anthropic,P3_D2_CURRENT__C2_metadata,joint,17,42,42,True,raw paid calls
+phase2,anthropic,P3_D2_CURRENT__C3_plusminus1,joint,17,42,42,True,raw paid calls
+phase2,anthropic,P3_D2_CURRENT__C4_plusminus2,joint,17,42,42,True,raw paid calls
+phase2,gemini,P1_DIRECT__C2_metadata,joint,17,42,42,True,raw paid calls
+phase2,gemini,P1_DIRECT__C3_plusminus1,joint,17,42,42,True,raw paid calls
+phase2,gemini,P1_DIRECT__C4_plusminus2,joint,17,42,42,True,raw paid calls
+phase2,gemini,P3_D2_CURRENT__C2_metadata,joint,17,42,42,True,raw paid calls
+phase2,gemini,P3_D2_CURRENT__C3_plusminus1,joint,17,42,42,True,raw paid calls
+phase2,gemini,P3_D2_CURRENT__C4_plusminus2,joint,17,42,42,True,raw paid calls
+phase2_reused_c1,openai,P1_DIRECT__C1_target,joint,17,42,42,True,reused Phase 1 calls
+phase2_reused_c1,openai,P3_D2_CURRENT__C1_target,joint,17,42,42,True,reused Phase 1 calls
+phase2_reused_c1,anthropic,P1_DIRECT__C1_target,joint,17,42,42,True,reused Phase 1 calls
+phase2_reused_c1,anthropic,P3_D2_CURRENT__C1_target,joint,17,42,42,True,reused Phase 1 calls
+phase2_reused_c1,gemini,P1_DIRECT__C1_target,joint,17,42,42,True,reused Phase 1 calls
+phase2_reused_c1,gemini,P3_D2_CURRENT__C1_target,joint,17,42,42,True,reused Phase 1 calls
+phase3,openai,W1_ONE_STAGE,joint,17,42,42,True,raw paid calls
+phase3,openai,W2_BINARY_FIRST,binary,17,42,42,True,raw paid calls
+phase3,openai,W2_BINARY_FIRST,target,17,12,12,True,conditional raw paid calls
+phase3,anthropic,W1_ONE_STAGE,joint,17,42,42,True,raw paid calls
+phase3,anthropic,W2_BINARY_FIRST,binary,17,42,42,True,raw paid calls
+phase3,anthropic,W2_BINARY_FIRST,target,17,16,16,True,conditional raw paid calls
+phase3,gemini,W1_ONE_STAGE,joint,17,42,42,True,raw paid calls
+phase3,gemini,W2_BINARY_FIRST,binary,17,42,42,True,raw paid calls
+phase3,gemini,W2_BINARY_FIRST,target,17,12,12,True,conditional raw paid calls
+stability,openai,FINALIST_STABILITY,joint,17,42,42,True,raw paid calls
+stability,openai,FINALIST_STABILITY,joint,43,42,42,True,raw paid calls
+stability,openai,FINALIST_STABILITY,joint,101,42,42,True,raw paid calls
+stability,openai,FINALIST_STABILITY,joint,211,42,42,True,raw paid calls
+stability,openai,FINALIST_STABILITY,joint,307,42,42,True,raw paid calls
+stability,anthropic,FINALIST_STABILITY,joint,17,42,42,True,raw paid calls
+stability,anthropic,FINALIST_STABILITY,joint,43,42,42,True,raw paid calls
+stability,anthropic,FINALIST_STABILITY,joint,101,42,42,True,raw paid calls
+stability,anthropic,FINALIST_STABILITY,joint,211,42,42,True,raw paid calls
+stability,anthropic,FINALIST_STABILITY,joint,307,42,42,True,raw paid calls
+stability,gemini,FINALIST_STABILITY,joint,17,42,42,True,raw paid calls
+stability,gemini,FINALIST_STABILITY,joint,43,42,42,True,raw paid calls
+stability,gemini,FINALIST_STABILITY,joint,101,42,42,True,raw paid calls
+stability,gemini,FINALIST_STABILITY,joint,211,42,42,True,raw paid calls
+stability,gemini,FINALIST_STABILITY,joint,307,42,42,True,raw paid calls

@@ -1,0 +1,23 @@
+# Normalize repository-maintained prose and code.
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Preserve research artifacts byte-for-byte so recorded SHA-256 hashes remain valid.
+data/** -text
+notebooks/** -text
+experiments/** -text
+archive/** -text
+manifests/** -text
+
+# Binary formats outside the protected research directories.
+*.xlsx -text
+*.pptx -text
+*.pdf -text
+*.parquet -text
+*.gz -text
+*.png -text

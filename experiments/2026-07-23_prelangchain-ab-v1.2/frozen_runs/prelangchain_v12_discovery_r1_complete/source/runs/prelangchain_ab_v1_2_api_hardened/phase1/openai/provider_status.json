@@ -1,0 +1,18 @@
+{
+  "provider": "openai",
+  "phase": "phase1",
+  "started_at_utc": "2026-07-22T20:44:24.436056+00:00",
+  "completed_at_utc": "2026-07-22T20:57:52.186422+00:00",
+  "tasks_requested": 294,
+  "new_attempts": 294,
+  "successful_run_keys_total": 294,
+  "smoke_passed": true,
+  "smoke_reason": "current smoke test passed",
+  "stopped_early": false,
+  "stop_reason": null,
+  "last_error_fingerprint": null,
+  "max_consecutive_errors": 3,
+  "max_identical_errors": 2,
+  "result_log": "/content/runs/prelangchain_ab_v1_2_api_hardened/phase1/openai/results.jsonl",
+  "error_log": "/content/runs/prelangchain_ab_v1_2_api_hardened/phase1/openai/errors.jsonl"
+}

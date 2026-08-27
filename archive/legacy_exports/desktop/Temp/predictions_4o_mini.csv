@@ -1,0 +1,67 @@
+unlearning_present,target_type,agency,rationale,paragraph_id,provider,model,temperature,seed,system_fingerprint,prompt_version,runtime_seconds,run_timestamp,raw_response,gold_binary,source_document
+True,Leadership,FEMA,"The text questions FEMA's organizational placement and suggests disbanding it, indicating a need to rethink leadership structure.",14:2,openai,gpt-4o-mini,0,42,fp_21d4bc30a8,v0_quick_demo,1.692,2026-05-15T13:11:08,"{
+  ""unlearning_present"": true,
+  ""target_type"": ""Leadership"",
+  ""agency"": ""FEMA"",
+  ""rationale"": ""The text questions FEMA's organizational placement and suggests disbanding it, indicating a need to rethink leadership structure.""
+}",True,gao-06-442t.pdf
+True,Leadership,FEMA,"The text calls for designating a single individual accountable to the President to lead federal response, indicating a need to redefine leadership roles in disaster management.",14:3,openai,gpt-4o-mini,0,42,fp_21d4bc30a8,v0_quick_demo,1.88,2026-05-15T13:11:10,"{
+  ""unlearning_present"": true,
+  ""target_type"": ""Leadership"",
+  ""agency"": ""FEMA"",
+  ""rationale"": ""The text calls for designating a single individual accountable to the President to lead federal response, indicating a need to redefine leadership roles in disaster management.""
+}",True,gao-06-442t.pdf
+True,Leadership,FEMA,The text questions FEMA's organizational placement and suggests a fundamental rethinking of its role in disaster management.,14:4,openai,gpt-4o-mini,0,42,fp_21d4bc30a8,v0_quick_demo,1.568,2026-05-15T13:11:11,"{
+  ""unlearning_present"": true,
+  ""target_type"": ""Leadership"",
+  ""agency"": ""FEMA"",
+  ""rationale"": ""The text questions FEMA's organizational placement and suggests a fundamental rethinking of its role in disaster management.""
+}",True,gao-06-442t.pdf
+True,capabilities,Federal government,"The text calls for a departure from the traditional layered approach to disaster response, indicating that prior methods are inadequate.",14:5,openai,gpt-4o-mini,0,42,fp_21d4bc30a8,v0_quick_demo,2.109,2026-05-15T13:11:13,"{
+  ""unlearning_present"": true,
+  ""target_type"": ""capabilities"",
+  ""agency"": ""Federal government"",
+  ""rationale"": ""The text calls for a departure from the traditional layered approach to disaster response, indicating that prior methods are inadequate.""
+}",True,gao-06-442t.pdf
+False,none,FEMA,The paragraph discusses past recommendations without explicitly calling for the abandonment or rethinking of prior practices.,14:6,openai,gpt-4o-mini,0,42,fp_21d4bc30a8,v0_quick_demo,1.645,2026-05-15T13:11:15,"{
+  ""unlearning_present"": false,
+  ""target_type"": ""none"",
+  ""agency"": ""FEMA"",
+  ""rationale"": ""The paragraph discusses past recommendations without explicitly calling for the abandonment or rethinking of prior practices.""
+}",True,gao-06-442t.pdf
+True,laws_plans_policies,,The text calls for suspending long-standing policies and procedures that hinder quick action during disasters.,14:7,openai,gpt-4o-mini,0,42,fp_21d4bc30a8,v0_quick_demo,1.681,2026-05-15T13:11:17,"{
+  ""unlearning_present"": true,
+  ""target_type"": ""laws_plans_policies"",
+  ""agency"": null,
+  ""rationale"": ""The text calls for suspending long-standing policies and procedures that hinder quick action during disasters.""
+}",True,gao-06-442t.pdf
+True,misc_organizational,Department of Homeland Security,"The paragraph calls for redefining intergovernmental planning and collaboration to address interoperability issues, rejecting past ineffective practices.",14:8,openai,gpt-4o-mini,0,42,fp_21d4bc30a8,v0_quick_demo,1.896,2026-05-15T13:11:19,"{
+  ""unlearning_present"": true,
+  ""target_type"": ""misc_organizational"",
+  ""agency"": ""Department of Homeland Security"",
+  ""rationale"": ""The paragraph calls for redefining intergovernmental planning and collaboration to address interoperability issues, rejecting past ineffective practices.""
+}",True,gao-06-442t.pdf
+True,capabilities,Department of Defense,The text identifies a lack of advance planning by DOD for disaster response capabilities as inadequate and calls for a reassessment of how these capabilities are utilized.,14:9,openai,gpt-4o-mini,0,42,fp_21d4bc30a8,v0_quick_demo,1.803,2026-05-15T13:11:20,"{
+  ""unlearning_present"": true,
+  ""target_type"": ""capabilities"",
+  ""agency"": ""Department of Defense"",
+  ""rationale"": ""The text identifies a lack of advance planning by DOD for disaster response capabilities as inadequate and calls for a reassessment of how these capabilities are utilized.""
+}",True,gao-06-442t.pdf
+True,Leadership,FEMA,"The text questions FEMA's organizational placement and leadership effectiveness, indicating a need for re-evaluation of its role and authority.",14:12,openai,gpt-4o-mini,0,42,fp_21d4bc30a8,v0_quick_demo,1.647,2026-05-15T13:11:22,"{
+  ""unlearning_present"": true,
+  ""target_type"": ""Leadership"",
+  ""agency"": ""FEMA"",
+  ""rationale"": ""The text questions FEMA's organizational placement and leadership effectiveness, indicating a need for re-evaluation of its role and authority.""
+}",True,gao-06-442t.pdf
+False,none,,The paragraph discusses the damage and challenges in rebuilding the health care system without explicitly calling for the abandonment or rethinking of prior practices.,14:13,openai,gpt-4o-mini,0,42,fp_21d4bc30a8,v0_quick_demo,2.142,2026-05-15T13:11:24,"{
+  ""unlearning_present"": false,
+  ""target_type"": ""none"",
+  ""agency"": null,
+  ""rationale"": ""The paragraph discusses the damage and challenges in rebuilding the health care system without explicitly calling for the abandonment or rethinking of prior practices.""
+}",True,gao-06-442t.pdf
+False,none,,The paragraph discusses planning for a new health care system but does not explicitly call for abandoning or rethinking prior practices.,14:14,openai,gpt-4o-mini,0,42,fp_21d4bc30a8,v0_quick_demo,1.733,2026-05-15T13:11:26,"{
+  ""unlearning_present"": false,
+  ""target_type"": ""none"",
+  ""agency"": null,
+  ""rationale"": ""The paragraph discusses planning for a new health care system but does not explicitly call for abandoning or rethinking prior practices.""
+}",True,gao-06-442t.pdf

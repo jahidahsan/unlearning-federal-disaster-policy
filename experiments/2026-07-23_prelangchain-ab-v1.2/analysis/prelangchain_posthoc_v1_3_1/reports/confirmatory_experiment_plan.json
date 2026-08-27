@@ -1,0 +1,23 @@
+{
+  "status": "deferred until adjudication and corrected rescoring are complete",
+  "created_at_utc": "2026-07-24T00:46:03.932657+00:00",
+  "purpose": "Rerun target-only and the strongest context candidate contemporaneously to remove the C1 timing confound.",
+  "candidate_context_conditions": [
+    "P3_D2_CURRENT__C3_plusminus1",
+    "P1_DIRECT__C3_plusminus1"
+  ],
+  "required_control": "matched C1 target-only condition using the same definition and prompt structure",
+  "providers": [
+    "openai",
+    "anthropic",
+    "gemini"
+  ],
+  "suggested_repeats": [
+    17,
+    43,
+    101
+  ],
+  "randomization": "randomize condition order within row and provider",
+  "one_paragraph_per_request": true,
+  "new_api_calls_launched_by_this_notebook": false
+}

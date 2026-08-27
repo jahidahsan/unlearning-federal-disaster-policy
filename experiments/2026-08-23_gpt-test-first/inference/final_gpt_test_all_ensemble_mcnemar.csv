@@ -1,0 +1,4 @@
+scope,system_a,system_b,a_correct_b_wrong,a_wrong_b_correct,discordant_pairs,exact_two_sided_p_value
+all_rows,final_prompt_selected_models_simple_average,locked_weighted_ensemble,32,11,43,0.001913961001264397
+human_labeled_only,final_prompt_selected_models_simple_average,locked_weighted_ensemble,2,11,13,0.0224609375
+non_gpt_test_exact_text,final_prompt_selected_models_simple_average,locked_weighted_ensemble,30,0,30,1.862645149230957e-09

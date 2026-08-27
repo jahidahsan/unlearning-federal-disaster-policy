@@ -1,0 +1,4 @@
+provider,condition_left,condition_right,left_only_correct,right_only_correct,discordant_pairs,mcnemar_exact_p,holm_adjusted_p
+anthropic,W1_ONE_STAGE,W2_BINARY_FIRST,5,2,7,0.453125,0.90625
+gemini,W1_ONE_STAGE,W2_BINARY_FIRST,1,1,2,1.0,1.0
+openai,W1_ONE_STAGE,W2_BINARY_FIRST,0,3,3,0.25,0.75

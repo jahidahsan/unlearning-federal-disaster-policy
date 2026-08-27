@@ -1,0 +1,29 @@
+{
+  "captured_at_utc": "2026-07-23T22:32:53.717821+00:00",
+  "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+  "executable": "/usr/bin/python3",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "seed_status": {
+    "python": 17,
+    "numpy": 17,
+    "torch": true,
+    "tensorflow": true
+  },
+  "packages": {
+    "pandas": "2.2.2",
+    "numpy": "2.0.2",
+    "openpyxl": "3.1.5",
+    "pyarrow": "18.1.0",
+    "pydantic": "2.13.4",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.3",
+    "statsmodels": "0.14.6",
+    "krippendorff": null,
+    "openai": "2.48.0",
+    "anthropic": "0.119.0",
+    "google-genai": "2.14.0",
+    "python-dotenv": "1.2.2",
+    "tqdm": "4.67.3",
+    "nbformat": "5.10.4"
+  }
+}

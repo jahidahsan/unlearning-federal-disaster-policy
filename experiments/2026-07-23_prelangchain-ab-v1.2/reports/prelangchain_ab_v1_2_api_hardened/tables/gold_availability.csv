@@ -1,0 +1,5 @@
+definition_id,preferred_gold_column,complete,non_null_rows
+D0_none,gold_historical,True,42
+D1_old_broad,gold_old_definition,False,0
+D2_current_strict,gold_current_definition,False,0
+D3_provisional_adaptive,gold_final_definition,False,0

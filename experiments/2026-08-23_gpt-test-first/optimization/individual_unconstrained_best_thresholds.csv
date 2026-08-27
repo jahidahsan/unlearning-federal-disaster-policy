@@ -1,0 +1,4 @@
+system_name,search_type,n,positive_prevalence,threshold,predicted_positive_count,tn,fp,fn,tp,accuracy,precision,recall,f1,auroc,auprc,brier,meets_recall_guardrail,meets_positive_count_guardrail,eligible_primary
+openai_gpt_5_6_terra_low,individual_model_threshold,84,0.5,0.39,9,42,0,33,9,0.6071428571428571,1.0,0.21428571428571427,0.35294117647058826,0.754251700680272,0.7607096833691547,0.3082869047619048,False,True,False
+anthropic_claude_haiku_4_5_no_thinking,individual_model_threshold,84,0.5,0.73,2,42,0,40,2,0.5238095238095238,1.0,0.047619047619047616,0.09090909090909091,0.6910430839002267,0.6601270846553866,0.2577369047619047,False,False,False
+google_gemini_3_1_flash_lite_low,individual_model_threshold,84,0.5,0.36,10,42,0,32,10,0.6190476190476191,1.0,0.23809523809523808,0.38461538461538464,0.7329931972789117,0.7455500658270855,0.27389880952380946,False,True,False

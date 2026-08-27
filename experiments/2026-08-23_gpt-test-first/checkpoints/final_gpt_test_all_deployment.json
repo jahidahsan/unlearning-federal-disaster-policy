@@ -1,0 +1,25 @@
+{
+  "stage": "final_gpt_test_all_locked_deployment",
+  "selection_and_tuning_dataset": "GPT Test",
+  "evaluation_dataset": "GPT Test ALL",
+  "prompt_name": "codebook_no_examples_with_checklist",
+  "prompt_hash": "5ef0ed097ed63718a949e101ae68ad12b372d8fb0b0f5d1f6902d6007c2fa4c9",
+  "selected_run_names": [
+    "openai_gpt_5_6_terra_low",
+    "anthropic_claude_haiku_4_5_no_thinking",
+    "google_gemini_3_1_flash_lite_low"
+  ],
+  "locked_weights": {
+    "openai_gpt_5_6_terra_low": 0.35,
+    "anthropic_claude_haiku_4_5_no_thinking": 0.0,
+    "google_gemini_3_1_flash_lite_low": 0.65
+  },
+  "locked_threshold": 0.24,
+  "logical_predictions": 2031,
+  "exact_gpt_test_text_overlaps": 79,
+  "human_labeled_rows": 79,
+  "unlabeled_default_no_rows": 598,
+  "source_workbook_sha256": "a148051e24ccab080b35a2404cebddeff24cd7c0aec9b5af1f45c42a39c85d31",
+  "codebook_whole_sheet_sha256": "892a055512cdecccc191a768792ad1182933fb77ca3df31b2a2e4e470549d1e6",
+  "created_at_utc": "2026-08-23T16:49:53.461480+00:00"
+}

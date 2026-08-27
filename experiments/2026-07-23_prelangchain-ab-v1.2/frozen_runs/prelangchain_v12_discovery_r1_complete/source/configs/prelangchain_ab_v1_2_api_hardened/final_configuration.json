@@ -1,0 +1,131 @@
+{
+  "protocol_version": "prelangchain_ab_v1_2_api_hardened",
+  "adapter_revision": "api_hardened_2026_07_22_r1",
+  "created_at_utc": "2026-07-23T23:37:03.026560+00:00",
+  "dataset_sha256": "ab203fea011cbf56eb75efcb5a2448c713b7640dc8f1deedfdfe2e9673f34ea0",
+  "benchmark_rows": 42,
+  "gold_common_final_basis": "historical provisional gold",
+  "definition_is_provisional": false,
+  "condition": {
+    "condition_id": "FINALIST_STABILITY",
+    "phase": "stability",
+    "definition_id": "D0_none",
+    "prompt_style": "P1_direct",
+    "context_id": "C1_target",
+    "workflow": "W1_one_stage",
+    "description": "Selected pre-LangChain finalist repeated across registered seeds."
+  },
+  "models": {
+    "openai": {
+      "provider": "openai",
+      "model_id": "gpt-5.6-terra",
+      "temperature_requested": 0.0,
+      "temperature_sent": null,
+      "temperature_transport": "temperature is unsupported by GPT-5.6 Terra in this Responses configuration; the field is forbidden by the local request firewall and is never transmitted",
+      "reasoning_label": "reasoning.effort=low",
+      "reasoning_payload": {
+        "effort": "low"
+      },
+      "native_seed_supported": false,
+      "native_seed_enabled": false,
+      "native_seed_transport": "no documented Responses decoding-seed field; experiment seed is local/repeat metadata only",
+      "api_transport": "OpenAI Responses API: client.responses.parse",
+      "structured_output_transport": "Pydantic text_format through Responses parse helper",
+      "api_key_env": "OPENAI_API_KEY",
+      "prompt_caching": "hashed prompt_cache_key (63 chars); exact static prefix first",
+      "reproducibility_mode": "fixed prompt/schema/model configuration + raw logs + repeated identical calls",
+      "max_output_tokens": 1800
+    },
+    "anthropic": {
+      "provider": "anthropic",
+      "model_id": "claude-haiku-4-5-20251001",
+      "temperature_requested": 0.0,
+      "temperature_sent": 0.0,
+      "temperature_transport": "temperature=0.0 sent; extended thinking omitted",
+      "reasoning_label": "lowest setting: extended thinking disabled",
+      "reasoning_payload": null,
+      "native_seed_supported": false,
+      "native_seed_enabled": false,
+      "native_seed_transport": "Claude Messages API exposes no decoding seed in this protocol",
+      "api_transport": "Anthropic Messages API: client.messages.parse",
+      "structured_output_transport": "Pydantic output_format convenience parameter",
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "prompt_caching": "explicit ephemeral cache breakpoint on the static system block",
+      "reproducibility_mode": "pinned dated model ID + temperature 0 + raw logs + repeated identical calls",
+      "max_output_tokens": 1800
+    },
+    "gemini": {
+      "provider": "gemini",
+      "model_id": "gemini-3.1-flash-lite",
+      "temperature_requested": 0.0,
+      "temperature_sent": 0.0,
+      "temperature_transport": "temperature=0.0 sent",
+      "reasoning_label": "thinking_level=low",
+      "reasoning_payload": {
+        "thinking_level": "low"
+      },
+      "native_seed_supported": true,
+      "native_seed_enabled": true,
+      "native_seed_transport": "GenerationConfig.seed receives the registered experiment seed",
+      "api_transport": "Google Gen AI SDK: models.generate_content",
+      "structured_output_transport": "response_mime_type=application/json + response_json_schema",
+      "api_key_env": "GEMINI_API_KEY or GOOGLE_API_KEY",
+      "prompt_caching": "implicit prefix caching; cached token usage logged when reported",
+      "reproducibility_mode": "stable model ID + temperature 0 + native decoding seed + raw logs + repeats",
+      "max_output_tokens": 1800
+    }
+  },
+  "temperature_requested": {
+    "openai": 0.0,
+    "anthropic": 0.0,
+    "gemini": 0.0
+  },
+  "temperature_sent": {
+    "openai": null,
+    "anthropic": 0.0,
+    "gemini": 0.0
+  },
+  "provider_temperature_transport": {
+    "openai": "temperature is unsupported by GPT-5.6 Terra in this Responses configuration; the field is forbidden by the local request firewall and is never transmitted",
+    "anthropic": "temperature=0.0 sent; extended thinking omitted",
+    "gemini": "temperature=0.0 sent"
+  },
+  "provider_native_seed_supported": {
+    "openai": false,
+    "anthropic": false,
+    "gemini": true
+  },
+  "provider_native_seed_enabled": {
+    "openai": false,
+    "anthropic": false,
+    "gemini": true
+  },
+  "provider_native_seed_transport": {
+    "openai": "no documented Responses decoding-seed field; experiment seed is local/repeat metadata only",
+    "anthropic": "Claude Messages API exposes no decoding seed in this protocol",
+    "gemini": "GenerationConfig.seed receives the registered experiment seed"
+  },
+  "reproducibility_interpretation": "OpenAI and Claude experiment seeds are local scheduling/repeat identifiers, not provider decoding seeds. Gemini receives its registered native decoding seed. All providers are evaluated through repeated identical calls and complete provenance.",
+  "stability_seeds": [
+    17,
+    43,
+    101,
+    211,
+    307
+  ],
+  "one_target_paragraph_per_request": true,
+  "few_shot_examples_used": false,
+  "structured_evidence_only": true,
+  "tiered_review_policy": {
+    "Tier 1": "3 of 3 providers Yes",
+    "Tier 2": "2 of 3 providers Yes",
+    "Tier 3": "1 of 3 providers Yes",
+    "Tier 4": "0 of 3 providers Yes"
+  },
+  "selection_constraints": {
+    "minimum_schema_valid_rate": 0.99,
+    "minimum_evidence_valid_rate": 0.98,
+    "specificity_floor": 0.8
+  },
+  "warning": "Do not treat D3 as final until human adjudication is completed."
+}

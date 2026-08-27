@@ -1,0 +1,7 @@
+{
+  "whole_sheet_sha256": "892a055512cdecccc191a768792ad1182933fb77ca3df31b2a2e4e470549d1e6",
+  "parsed_codebook_sha256": "6a7ecdab07710dc13cd61dd62680edeb1786382db02098742c03b661e5661877",
+  "without_examples_sha256": "002e8d8162b88a1fe9be4a2bf0f10b0cf37d381efc5c6ea68f1f9c2cd61395e4",
+  "with_examples_sha256": "b5e092a1da2c14349e75e1c8aeb20a4fc12bbcccea19730c11586584e3dd9910",
+  "renderer_source": "Exact renderer copied from Unlearning_Final_FullPDF_AB_Evaluation_Pipeline.ipynb"
+}

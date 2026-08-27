@@ -1,0 +1,809 @@
+Unlearning_Research_Repository/
+├── .github/
+│   ├── workflows/
+│   │   └── validate.yml
+│   └── pull_request_template.md
+├── archive/
+│   ├── legacy_exports/
+│   │   ├── desktop/
+│   │   │   ├── Temp/
+│   │   │   │   ├── predictions_4o_mini.csv
+│   │   │   │   └── predictions_5.4_nano.csv
+│   │   │   ├── to send/
+│   │   │   │   ├── Unlearning_All_Versions_Results_Expanded_Analysis.xlsx
+│   │   │   │   └── Unlearning_All_Versions_Results_Expanded_Analysis_Formatted.xlsx
+│   │   │   ├── Unlearning Docs/
+│   │   │   │   ├── annotated/
+│   │   │   │   │   ├── EPA 20060914-2006-p-00033_annotated.pdf
+│   │   │   │   │   ├── gao-06-442t_annotated.pdf
+│   │   │   │   │   ├── Post-Katrina preparedness(2)_Unanimous_Model_Review_CORRECTED.pdf
+│   │   │   │   │   └── What if Hurricane Katrina Hit in 2020_annotated_with_best_models.pdf
+│   │   │   │   ├── Local Context Test Set Only.xlsx
+│   │   │   │   ├── Local Context Test Set.xlsx
+│   │   │   │   ├── predictions_grouped_by_context.xlsx
+│   │   │   │   ├── Unlearning Codebook.xlsx
+│   │   │   │   ├── Unlearning_Codebook_Combined_Human_Test_Set - Old.xlsx
+│   │   │   │   └── Unlearning_Codebook_Local_Context_Paragraph_Cleaned - Copy.xlsx
+│   │   │   ├── codebook only.xlsx
+│   │   │   ├── predictions_long_v5.csv
+│   │   │   ├── Unlearning Codebook.xlsx
+│   │   │   ├── Unlearning Codebook1.xlsx
+│   │   │   ├── Unlearning with Context.xlsx
+│   │   │   ├── Unlearning_Prompt_AB_Test_Results.pptx
+│   │   │   ├── useful_new_prob_exp.xlsx
+│   │   │   └── Weekly ppt July 24.pptx
+│   │   └── downloads/
+│   │       ├── ab_contrasts.csv
+│   │       ├── ab_test_raw_results_v3_4o_prompt_parity_codebook_examples.jsonl
+│   │       ├── all_model_predictions.csv
+│   │       ├── all_model_predictions.parquet
+│   │       ├── anthropic__claude-sonnet-5__effort-low__v6-fixed-definitions-only-local-context-42__predictions.csv
+│   │       ├── anthropic_predictions_v4_provider_separated_confidence_api_fixes (1).csv
+│   │       ├── anthropic_predictions_v4_provider_separated_confidence_api_fixes.csv
+│   │       ├── anthropic_predictions_v5_definitions_only_combined_human_test.csv
+│   │       ├── best_ensemble_weights.csv
+│   │       ├── best_thresholds.csv
+│   │       ├── document_metrics_v6_fixed_definitions_only_local_context_42.csv
+│   │       ├── ensemble_metrics.csv
+│   │       ├── gemini__gemini-3-1-flash-lite__thinking-level-minimal__v6-fixed-definitions-only-local-context-42__predictions.csv
+│   │       ├── gemini_predictions_v4_provider_separated_confidence_api_fixes (1).csv
+│   │       ├── gemini_predictions_v4_provider_separated_confidence_api_fixes.csv
+│   │       ├── gemini_predictions_v5_definitions_only_combined_human_test.csv
+│   │       ├── GPT_Test_Selected_Models_and_Ensembles_Manual_Review.xlsx
+│   │       ├── GPT_Test_Selected_Models_Manual_Review.xlsx
+│   │       ├── metrics_by_model_prompt (1).csv
+│   │       ├── metrics_by_model_prompt.csv
+│   │       ├── metrics_by_model_prompt_v4_provider_separated_confidence_api_fixes (1).csv
+│   │       ├── metrics_by_model_prompt_v4_provider_separated_confidence_api_fixes.csv
+│   │       ├── metrics_by_model_prompt_v5_definitions_only_combined_human_test.csv
+│   │       ├── metrics_default.csv
+│   │       ├── metrics_optimized_threshold.csv
+│   │       ├── metrics_v6_fixed_definitions_only_local_context_42.csv
+│   │       ├── openai__gpt-5-6-terra__reasoning-effort-low__v6-fixed-definitions-only-local-context-42__predictions.csv
+│   │       ├── openai_predictions_v4_provider_separated_confidence_api_fixes (1).csv
+│   │       ├── openai_predictions_v4_provider_separated_confidence_api_fixes.csv
+│   │       ├── openai_predictions_v5_definitions_only_combined_human_test.csv
+│   │       ├── prediction_quality.csv
+│   │       ├── predictions_grouped_by_context (1).csv
+│   │       ├── predictions_grouped_by_context (2).csv
+│   │       ├── predictions_grouped_by_context.csv
+│   │       ├── predictions_grouped_with_human_rationale.xlsx
+│   │       ├── predictions_long.csv
+│   │       ├── predictions_long_v3_4o_prompt_parity_codebook_examples.csv
+│   │       ├── predictions_long_v4_provider_separated_confidence_api_fixes (1).csv
+│   │       ├── predictions_long_v4_provider_separated_confidence_api_fixes.csv
+│   │       ├── predictions_long_v5_definitions_only_combined_human_test.csv
+│   │       ├── predictions_most.csv
+│   │       ├── predictions_v6_fixed_definitions_only_local_context_42.csv
+│   │       ├── Probability_Experiment_Cleaned_Analysis.xlsx
+│   │       ├── prompt_audit_v4_provider_separated_confidence_api_fixes (1).csv
+│   │       ├── prompt_audit_v4_provider_separated_confidence_api_fixes.csv
+│   │       ├── prompt_audit_v5_definitions_only_combined_human_test.csv
+│   │       ├── reliability_overall.csv
+│   │       ├── reliability_pairwise.csv
+│   │       ├── threshold_curves.csv
+│   │       ├── unlearning_ab_test_results (1).xlsx
+│   │       ├── unlearning_ab_test_results.xlsx
+│   │       ├── Unlearning_All_Versions_Results.xlsx
+│   │       ├── Unlearning_All_Versions_Results_Expanded_Analysis.xlsx
+│   │       ├── Unlearning_All_Versions_Results_Expanded_Analysis_Formatted.xlsx
+│   │       ├── Unlearning_Codebook_Combined_Human_Test_Set.xlsx
+│   │       ├── Unlearning_Codebook_v6_Evidence_First_49Rows.xlsx
+│   │       ├── Unlearning_Curated_GPT_Test_EPA_Reevaluation.xlsx
+│   │       ├── Unlearning_Final_Evaluation_Results.xlsx
+│   │       ├── Unlearning_Final_Presentation_Results.xlsx
+│   │       ├── Unlearning_GPT_Test_Addition_Recommendations.xlsx
+│   │       ├── unlearning_llm_abtest_results.xlsx
+│   │       ├── unlearning_phase1_checklist_extract.xlsx
+│   │       ├── unlearning_post_phase1_meeting_workbook.xlsx
+│   │       ├── Unlearning_PostHoc_Cleaned_Metrics.xlsx
+│   │       ├── Unlearning_Presentation_Results_Condensed.xlsx
+│   │       ├── Unlearning_Presentation_Results_NewGold_Only.xlsx
+│   │       ├── Unlearning_Project_All_Results_Compiled_v1.xlsx
+│   │       ├── Unlearning_Project_Final_Results_Report.xlsx
+│   │       ├── Unlearning_Project_Presentation_Results_v2.xlsx
+│   │       ├── Unlearning_Project_Update_Achievements_Insights_Reliability.pptx
+│   │       ├── Unlearning_Project_Update_Defensible_Results.pptx
+│   │       ├── Unlearning_Project_Update_Results_and_Pipeline.pptx
+│   │       ├── Unlearning_Project_Update_Standard_Visuals.pptx
+│   │       ├── Unlearning_Prompt_AB_Test.pptx
+│   │       ├── Unlearning_Prompt_AB_Test_Results_Actual_File.pptx
+│   │       ├── Unlearning_Weekly_Meeting_Probability_Results.xlsx
+│   │       ├── Unlearning_Weekly_Team_Update.pptx
+│   │       ├── Unlearning_Weekly_Team_Update_with_Confusion_Slides.pptx
+│   │       ├── Unlearning_Weekly_Update_Review_Workbook.xlsx
+│   │       ├── Unlearning_Weekly_Update_v5_Findings.pptx
+│   │       ├── usage_by_model (1).csv
+│   │       ├── usage_by_model.csv
+│   │       ├── usage_by_model_v4_provider_separated_confidence_api_fixes.csv
+│   │       ├── usage_by_model_v5_definitions_only_combined_human_test.csv
+│   │       ├── usage_by_variant (1).csv
+│   │       ├── usage_by_variant.csv
+│   │       ├── usage_by_variant_v4_provider_separated_confidence_api_fixes.csv
+│   │       └── usage_by_variant_v5_definitions_only_combined_human_test.csv
+│   └── README.md
+├── data/
+│   ├── benchmarks/
+│   │   ├── current/
+│   │   │   └── Unlearning_GPT_Test_Paragraph_Aligned_ALL_strict_codebook.xlsx
+│   │   └── historical/
+│   │       ├── Katrina2020_paragraph_labels.xlsx
+│   │       ├── katrina_unlearning_paragraph_dataset.xlsx
+│   │       ├── Unlearning_Codebook_Combined_Human_Test_Set.xlsx
+│   │       ├── Unlearning_Codebook_Local_Context_Paragraph_Cleaned.xlsx
+│   │       ├── Unlearning_Codebook_Local_Context_Verified_Document_Titles.xlsx
+│   │       ├── Unlearning_Curated_GPT_Test_EPA_Reevaluation_drive.xlsx
+│   │       ├── Unlearning_Curated_GPT_Test_EPA_Reevaluation_KyleOnly_Removed.xlsx
+│   │       └── Unlearning_Curated_GPT_Test_Revised_Codebook.xlsx
+│   ├── codebooks/
+│   │   ├── current/
+│   │   │   └── Unlearning_Codebook_2026-08_latest.xlsx
+│   │   └── historical/
+│   │       ├── Unlearning_Codebook_integrated_annotations_v1.xlsx
+│   │       ├── Unlearning_Codebook_integrated_annotations_v3.xlsx
+│   │       ├── Unlearning_Codebook_old_pillar_version.xlsx
+│   │       └── Unlearning_Codebook_target_based_pre_final.xlsx
+│   ├── manifests/
+│   │   ├── dataset_versions.csv
+│   │   └── source_documents.csv
+│   ├── source_documents/
+│   │   ├── EPA 20060914-2006-p-00033.pdf
+│   │   ├── erpreport.pdf
+│   │   ├── gao-06-442t.pdf
+│   │   ├── Post-Katrina preparedness.pdf
+│   │   └── Public Administration Review - 2010 - McGuire - What if Hurricane Katrina Hit in 2020  The Need for Strategic Management of.pdf
+│   ├── source_selection/
+│   │   └── Dataset_17Nov_2025_v1.xlsx
+│   └── README.md
+├── docs/
+│   ├── CHANGELOG.md
+│   ├── DATA_VERSIONING.md
+│   ├── DECISION_LOG.md
+│   ├── EXPERIMENT_HISTORY.md
+│   ├── GITHUB_UPLOAD.md
+│   ├── KNOWN_LIMITATIONS.md
+│   ├── NEXT_RELEASE.md
+│   ├── PUBLIC_RELEASE_CHECKLIST.md
+│   ├── REPRODUCIBILITY.md
+│   └── RESULTS_GUIDE.md
+├── experiments/
+│   ├── 2026-07-23_prelangchain-ab-v1.2/
+│   │   ├── analysis/
+│   │   │   └── prelangchain_posthoc_v1_3_1/
+│   │   │       ├── adjudication/
+│   │   │       │   ├── adjudication_template.xlsx
+│   │   │       │   └── target_taxonomy_mapping_template.csv
+│   │   │       ├── imported/
+│   │   │       │   ├── benchmark_frozen.csv
+│   │   │       │   ├── benchmark_with_analysis_gold.csv
+│   │   │       │   ├── import_summary.csv
+│   │   │       │   ├── jsonl_parse_audit.csv
+│   │   │       │   ├── phase1_latest_records.csv.gz
+│   │   │       │   ├── phase2_latest_records.csv.gz
+│   │   │       │   ├── phase3_latest_records.csv.gz
+│   │   │       │   └── stability_latest_records.csv.gz
+│   │   │       ├── manifests/
+│   │   │       │   ├── analysis_artifact_manifest.csv
+│   │   │       │   ├── analysis_dataset_hashes.json
+│   │   │       │   ├── environment_snapshot.json
+│   │   │       │   ├── scored_dataset_manifest.csv
+│   │   │       │   └── table_manifest.csv
+│   │   │       ├── reports/
+│   │   │       │   ├── analysis_summary.json
+│   │   │       │   ├── confirmatory_experiment_plan.json
+│   │   │       │   ├── corrected_selection_summary.json
+│   │   │       │   └── prelangchain_posthoc_corrected_report.xlsx
+│   │   │       ├── scored/
+│   │   │       │   ├── phase1_corrected_scored.csv.gz
+│   │   │       │   ├── phase2_corrected_scored.csv.gz
+│   │   │       │   ├── phase3_corrected_scored.csv.gz
+│   │   │       │   └── stability_corrected_scored.csv.gz
+│   │   │       └── tables/
+│   │   │           ├── adjudication_queue.csv
+│   │   │           ├── analysis_summary.csv
+│   │   │           ├── completeness_summary.csv
+│   │   │           ├── configuration.csv
+│   │   │           ├── corrected_completeness.csv
+│   │   │           ├── d3_boundary_cases.csv
+│   │   │           ├── definition_impact.csv
+│   │   │           ├── document_registry.csv
+│   │   │           ├── epa_match_audit.csv
+│   │   │           ├── evidence_failure_summary.csv
+│   │   │           ├── evidence_quotes.csv
+│   │   │           ├── gold_availability.csv
+│   │   │           ├── import_summary.csv
+│   │   │           ├── phase1_aligned.csv
+│   │   │           ├── phase1_candidates.csv
+│   │   │           ├── phase1_documents.csv
+│   │   │           ├── phase1_epa_exact.csv
+│   │   │           ├── phase1_provider.csv
+│   │   │           ├── phase1_ranking.csv
+│   │   │           ├── phase1_tradeoff.csv
+│   │   │           ├── phase2_candidates.csv
+│   │   │           ├── phase2_context_comparison.csv
+│   │   │           ├── phase2_documents.csv
+│   │   │           ├── phase2_provider.csv
+│   │   │           ├── phase2_ranking.csv
+│   │   │           ├── phase2_timing.csv
+│   │   │           ├── phase3_candidates.csv
+│   │   │           ├── phase3_documents.csv
+│   │   │           ├── phase3_provider.csv
+│   │   │           ├── phase3_ranking.csv
+│   │   │           ├── phase3_target_audit.csv
+│   │   │           ├── provider_row_stability.csv
+│   │   │           ├── provider_seed_pairwise.csv
+│   │   │           ├── required_artifacts.csv
+│   │   │           ├── scored_dataset_manifest.csv
+│   │   │           ├── selection_status.csv
+│   │   │           ├── self_tests.csv
+│   │   │           ├── snapshot_manifest.csv
+│   │   │           ├── snapshot_verification.csv
+│   │   │           ├── source_execution_summary.csv
+│   │   │           ├── source_selections.csv
+│   │   │           ├── stability_reliability.csv
+│   │   │           ├── target_taxonomy.csv
+│   │   │           ├── target_taxonomy_summary.csv
+│   │   │           ├── tier_stability.csv
+│   │   │           └── tiered_review.csv
+│   │   ├── artifacts/
+│   │   │   └── prelangchain_ab_v1_2_api_hardened/
+│   │   │       ├── benchmark_canonical.csv
+│   │   │       ├── benchmark_canonical.parquet
+│   │   │       ├── dataset_manifest.json
+│   │   │       ├── phase2_resume_progress_after.csv
+│   │   │       ├── phase2_resume_progress_before.csv
+│   │   │       ├── phase3_workflow_progress.csv
+│   │   │       └── stability_workflow_progress.csv
+│   │   ├── backups/
+│   │   │   └── prelangchain_ab_v1_2_api_hardened/
+│   │   │       ├── checkpoint_20260722T235530Z.json
+│   │   │       ├── checkpoint_manifest_20260722T235530Z.csv
+│   │   │       └── LATEST_CHECKPOINT.json
+│   │   ├── checkpoints/
+│   │   │   └── prelangchain_ab_v1_2_api_hardened/
+│   │   │       ├── state/
+│   │   │       │   └── phase1_selection.json
+│   │   │       └── tables/
+│   │   │           ├── phase1_aligned_metrics.csv.gz
+│   │   │           ├── phase1_anthropic_raw.csv.gz
+│   │   │           ├── phase1_definition_tradeoff.csv.gz
+│   │   │           ├── phase1_document_metrics.csv.gz
+│   │   │           ├── phase1_epa_diagnostics.csv.gz
+│   │   │           ├── phase1_gee.csv.gz
+│   │   │           ├── phase1_gemini_raw.csv.gz
+│   │   │           ├── phase1_mcnemar.csv.gz
+│   │   │           ├── phase1_openai_raw.csv.gz
+│   │   │           ├── phase1_provider_metrics.csv.gz
+│   │   │           ├── phase1_ranking.csv.gz
+│   │   │           ├── phase1_registry.csv.gz
+│   │   │           ├── phase1_schedule.csv.gz
+│   │   │           ├── phase1_scored.csv.gz
+│   │   │           ├── phase2_anthropic_raw.csv.gz
+│   │   │           ├── phase2_gemini_raw.csv.gz
+│   │   │           └── phase2_openai_raw.csv.gz
+│   │   ├── configs/
+│   │   │   └── prelangchain_ab_v1_2_api_hardened/
+│   │   │       ├── api_documentation_audit.csv
+│   │   │       ├── D0_none.txt
+│   │   │       ├── D1_old_broad.txt
+│   │   │       ├── D2_current_strict.txt
+│   │   │       ├── D3_provisional_adaptive.txt
+│   │   │       ├── definition_registry.csv
+│   │   │       ├── environment_snapshot.json
+│   │   │       ├── final_configuration.json
+│   │   │       ├── model_protocol.csv
+│   │   │       ├── phase1_selection.json
+│   │   │       ├── phase2_completed_checkpoint.json
+│   │   │       ├── phase2_resume_status.json
+│   │   │       ├── phase2_selection.json
+│   │   │       ├── phase3_completed_checkpoint.json
+│   │   │       ├── phase3_selection.json
+│   │   │       ├── pricing_snapshot.json
+│   │   │       └── provider_parameter_preflight.csv
+│   │   ├── data/
+│   │   │   └── Unlearning_Codebook_Local_Context_Test_Set.xlsx
+│   │   ├── frozen_runs/
+│   │   │   └── prelangchain_v12_discovery_r1_complete/
+│   │   │       ├── source/
+│   │   │       │   ├── artifacts/
+│   │   │       │   │   └── prelangchain_ab_v1_2_api_hardened/
+│   │   │       │   │       ├── benchmark_canonical.csv
+│   │   │       │   │       ├── benchmark_canonical.parquet
+│   │   │       │   │       ├── dataset_manifest.json
+│   │   │       │   │       ├── phase2_resume_progress_after.csv
+│   │   │       │   │       ├── phase2_resume_progress_before.csv
+│   │   │       │   │       ├── phase3_workflow_progress.csv
+│   │   │       │   │       └── stability_workflow_progress.csv
+│   │   │       │   ├── backups/
+│   │   │       │   │   └── prelangchain_ab_v1_2_api_hardened/
+│   │   │       │   │       ├── checkpoint_20260722T235530Z.json
+│   │   │       │   │       ├── checkpoint_manifest_20260722T235530Z.csv
+│   │   │       │   │       └── LATEST_CHECKPOINT.json
+│   │   │       │   ├── configs/
+│   │   │       │   │   └── prelangchain_ab_v1_2_api_hardened/
+│   │   │       │   │       ├── api_documentation_audit.csv
+│   │   │       │   │       ├── D0_none.txt
+│   │   │       │   │       ├── D1_old_broad.txt
+│   │   │       │   │       ├── D2_current_strict.txt
+│   │   │       │   │       ├── D3_provisional_adaptive.txt
+│   │   │       │   │       ├── definition_registry.csv
+│   │   │       │   │       ├── environment_snapshot.json
+│   │   │       │   │       ├── final_configuration.json
+│   │   │       │   │       ├── model_protocol.csv
+│   │   │       │   │       ├── phase1_selection.json
+│   │   │       │   │       ├── phase2_completed_checkpoint.json
+│   │   │       │   │       ├── phase2_resume_status.json
+│   │   │       │   │       ├── phase2_selection.json
+│   │   │       │   │       ├── phase3_completed_checkpoint.json
+│   │   │       │   │       ├── phase3_selection.json
+│   │   │       │   │       ├── pricing_snapshot.json
+│   │   │       │   │       └── provider_parameter_preflight.csv
+│   │   │       │   ├── data/
+│   │   │       │   │   └── Unlearning_Codebook_Local_Context_Test_Set.xlsx
+│   │   │       │   ├── reports/
+│   │   │       │   │   └── prelangchain_ab_v1_2_api_hardened/
+│   │   │       │   │       ├── tables/
+│   │   │       │   │       │   ├── benchmark_audit.csv
+│   │   │       │   │       │   ├── bootstrap_ci.csv
+│   │   │       │   │       │   ├── completeness.csv
+│   │   │       │   │       │   ├── config_summary.csv
+│   │   │       │   │       │   ├── context_availability.csv
+│   │   │       │   │       │   ├── d3_boundary_cases.csv
+│   │   │       │   │       │   ├── definition_impact.csv
+│   │   │       │   │       │   ├── definitions.csv
+│   │   │       │   │       │   ├── gold_availability.csv
+│   │   │       │   │       │   ├── models.csv
+│   │   │       │   │       │   ├── phase1_aligned.csv
+│   │   │       │   │       │   ├── phase1_documents.csv
+│   │   │       │   │       │   ├── phase1_epa.csv
+│   │   │       │   │       │   ├── phase1_gee.csv
+│   │   │       │   │       │   ├── phase1_mcnemar.csv
+│   │   │       │   │       │   ├── phase1_provider.csv
+│   │   │       │   │       │   ├── phase1_ranking.csv
+│   │   │       │   │       │   ├── phase1_tradeoff.csv
+│   │   │       │   │       │   ├── phase2_documents.csv
+│   │   │       │   │       │   ├── phase2_gee.csv
+│   │   │       │   │       │   ├── phase2_mcnemar.csv
+│   │   │       │   │       │   ├── phase2_provider.csv
+│   │   │       │   │       │   ├── phase2_ranking.csv
+│   │   │       │   │       │   ├── phase3_documents.csv
+│   │   │       │   │       │   ├── phase3_gee.csv
+│   │   │       │   │       │   ├── phase3_mcnemar.csv
+│   │   │       │   │       │   ├── phase3_provider.csv
+│   │   │       │   │       │   ├── phase3_ranking.csv
+│   │   │       │   │       │   ├── phase3_targets.csv
+│   │   │       │   │       │   ├── prompt_audit.csv
+│   │   │       │   │       │   ├── provider_row_stability.csv
+│   │   │       │   │       │   ├── reliability.csv
+│   │   │       │   │       │   ├── review_queue.csv
+│   │   │       │   │       │   ├── seed_pairwise.csv
+│   │   │       │   │       │   ├── stability_distribution.csv
+│   │   │       │   │       │   ├── stability_runs.csv
+│   │   │       │   │       │   ├── tier_stability.csv
+│   │   │       │   │       │   └── tiered_review.csv
+│   │   │       │   │       ├── artifact_manifest.csv
+│   │   │       │   │       ├── execution_summary.json
+│   │   │       │   │       ├── prelangchain_ab_results.xlsx
+│   │   │       │   │       └── table_manifest.csv
+│   │   │       │   └── runs/
+│   │   │       │       └── prelangchain_ab_v1_2_api_hardened/
+│   │   │       │           ├── phase1/
+│   │   │       │           │   ├── anthropic/
+│   │   │       │           │   │   ├── latest_results.csv
+│   │   │       │           │   │   ├── provider_status.json
+│   │   │       │           │   │   ├── requests.jsonl
+│   │   │       │           │   │   └── results.jsonl
+│   │   │       │           │   ├── gemini/
+│   │   │       │           │   │   ├── errors.jsonl
+│   │   │       │           │   │   ├── latest_results.csv
+│   │   │       │           │   │   ├── provider_status.json
+│   │   │       │           │   │   ├── requests.jsonl
+│   │   │       │           │   │   └── results.jsonl
+│   │   │       │           │   └── openai/
+│   │   │       │           │       ├── latest_results.csv
+│   │   │       │           │       ├── provider_status.json
+│   │   │       │           │       ├── requests.jsonl
+│   │   │       │           │       └── results.jsonl
+│   │   │       │           ├── phase2/
+│   │   │       │           │   ├── anthropic/
+│   │   │       │           │   │   ├── latest_results.csv
+│   │   │       │           │   │   ├── provider_status.json
+│   │   │       │           │   │   ├── requests.jsonl
+│   │   │       │           │   │   └── results.jsonl
+│   │   │       │           │   ├── gemini/
+│   │   │       │           │   │   ├── latest_results.csv
+│   │   │       │           │   │   ├── provider_status.json
+│   │   │       │           │   │   ├── requests.jsonl
+│   │   │       │           │   │   └── results.jsonl
+│   │   │       │           │   └── openai/
+│   │   │       │           │       ├── latest_results.csv
+│   │   │       │           │       ├── provider_status.json
+│   │   │       │           │       ├── requests.jsonl
+│   │   │       │           │       └── results.jsonl
+│   │   │       │           ├── phase3/
+│   │   │       │           │   ├── anthropic/
+│   │   │       │           │   │   ├── latest_results.csv
+│   │   │       │           │   │   ├── provider_status.json
+│   │   │       │           │   │   ├── requests.jsonl
+│   │   │       │           │   │   └── results.jsonl
+│   │   │       │           │   ├── gemini/
+│   │   │       │           │   │   ├── latest_results.csv
+│   │   │       │           │   │   ├── provider_status.json
+│   │   │       │           │   │   ├── requests.jsonl
+│   │   │       │           │   │   └── results.jsonl
+│   │   │       │           │   └── openai/
+│   │   │       │           │       ├── latest_results.csv
+│   │   │       │           │       ├── provider_status.json
+│   │   │       │           │       ├── requests.jsonl
+│   │   │       │           │       └── results.jsonl
+│   │   │       │           ├── smoke_tests/
+│   │   │       │           │   ├── anthropic/
+│   │   │       │           │   │   └── smoke_test.json
+│   │   │       │           │   ├── gemini/
+│   │   │       │           │   │   └── smoke_test.json
+│   │   │       │           │   └── openai/
+│   │   │       │           │       └── smoke_test.json
+│   │   │       │           └── stability/
+│   │   │       │               ├── anthropic/
+│   │   │       │               │   ├── latest_results.csv
+│   │   │       │               │   ├── provider_status.json
+│   │   │       │               │   ├── requests.jsonl
+│   │   │       │               │   └── results.jsonl
+│   │   │       │               ├── gemini/
+│   │   │       │               │   ├── latest_results.csv
+│   │   │       │               │   ├── provider_status.json
+│   │   │       │               │   ├── requests.jsonl
+│   │   │       │               │   └── results.jsonl
+│   │   │       │               └── openai/
+│   │   │       │                   ├── latest_results.csv
+│   │   │       │                   ├── provider_status.json
+│   │   │       │                   ├── requests.jsonl
+│   │   │       │                   └── results.jsonl
+│   │   │       ├── SNAPSHOT_LOCK.json
+│   │   │       ├── snapshot_manifest.csv
+│   │   │       └── snapshot_metadata.json
+│   │   ├── reports/
+│   │   │   └── prelangchain_ab_v1_2_api_hardened/
+│   │   │       ├── tables/
+│   │   │       │   ├── benchmark_audit.csv
+│   │   │       │   ├── bootstrap_ci.csv
+│   │   │       │   ├── completeness.csv
+│   │   │       │   ├── config_summary.csv
+│   │   │       │   ├── context_availability.csv
+│   │   │       │   ├── d3_boundary_cases.csv
+│   │   │       │   ├── definition_impact.csv
+│   │   │       │   ├── definitions.csv
+│   │   │       │   ├── gold_availability.csv
+│   │   │       │   ├── models.csv
+│   │   │       │   ├── phase1_aligned.csv
+│   │   │       │   ├── phase1_documents.csv
+│   │   │       │   ├── phase1_epa.csv
+│   │   │       │   ├── phase1_gee.csv
+│   │   │       │   ├── phase1_mcnemar.csv
+│   │   │       │   ├── phase1_provider.csv
+│   │   │       │   ├── phase1_ranking.csv
+│   │   │       │   ├── phase1_tradeoff.csv
+│   │   │       │   ├── phase2_documents.csv
+│   │   │       │   ├── phase2_gee.csv
+│   │   │       │   ├── phase2_mcnemar.csv
+│   │   │       │   ├── phase2_provider.csv
+│   │   │       │   ├── phase2_ranking.csv
+│   │   │       │   ├── phase3_documents.csv
+│   │   │       │   ├── phase3_gee.csv
+│   │   │       │   ├── phase3_mcnemar.csv
+│   │   │       │   ├── phase3_provider.csv
+│   │   │       │   ├── phase3_ranking.csv
+│   │   │       │   ├── phase3_targets.csv
+│   │   │       │   ├── prompt_audit.csv
+│   │   │       │   ├── provider_row_stability.csv
+│   │   │       │   ├── reliability.csv
+│   │   │       │   ├── review_queue.csv
+│   │   │       │   ├── seed_pairwise.csv
+│   │   │       │   ├── stability_distribution.csv
+│   │   │       │   ├── stability_runs.csv
+│   │   │       │   ├── tier_stability.csv
+│   │   │       │   └── tiered_review.csv
+│   │   │       ├── artifact_manifest.csv
+│   │   │       ├── execution_summary.json
+│   │   │       ├── prelangchain_ab_results.xlsx
+│   │   │       └── table_manifest.csv
+│   │   └── runs/
+│   │       └── prelangchain_ab_v1_2_api_hardened/
+│   │           ├── phase1/
+│   │           │   ├── anthropic/
+│   │           │   │   ├── latest_results.csv
+│   │           │   │   ├── provider_status.json
+│   │           │   │   ├── requests.jsonl
+│   │           │   │   └── results.jsonl
+│   │           │   ├── gemini/
+│   │           │   │   ├── errors.jsonl
+│   │           │   │   ├── latest_results.csv
+│   │           │   │   ├── provider_status.json
+│   │           │   │   ├── requests.jsonl
+│   │           │   │   └── results.jsonl
+│   │           │   └── openai/
+│   │           │       ├── latest_results.csv
+│   │           │       ├── provider_status.json
+│   │           │       ├── requests.jsonl
+│   │           │       └── results.jsonl
+│   │           ├── phase2/
+│   │           │   ├── anthropic/
+│   │           │   │   ├── latest_results.csv
+│   │           │   │   ├── provider_status.json
+│   │           │   │   ├── requests.jsonl
+│   │           │   │   └── results.jsonl
+│   │           │   ├── gemini/
+│   │           │   │   ├── latest_results.csv
+│   │           │   │   ├── provider_status.json
+│   │           │   │   ├── requests.jsonl
+│   │           │   │   └── results.jsonl
+│   │           │   └── openai/
+│   │           │       ├── latest_results.csv
+│   │           │       ├── provider_status.json
+│   │           │       ├── requests.jsonl
+│   │           │       └── results.jsonl
+│   │           ├── phase3/
+│   │           │   ├── anthropic/
+│   │           │   │   ├── latest_results.csv
+│   │           │   │   ├── provider_status.json
+│   │           │   │   ├── requests.jsonl
+│   │           │   │   └── results.jsonl
+│   │           │   ├── gemini/
+│   │           │   │   ├── latest_results.csv
+│   │           │   │   ├── provider_status.json
+│   │           │   │   ├── requests.jsonl
+│   │           │   │   └── results.jsonl
+│   │           │   └── openai/
+│   │           │       ├── latest_results.csv
+│   │           │       ├── provider_status.json
+│   │           │       ├── requests.jsonl
+│   │           │       └── results.jsonl
+│   │           ├── smoke_tests/
+│   │           │   ├── anthropic/
+│   │           │   │   └── smoke_test.json
+│   │           │   ├── gemini/
+│   │           │   │   └── smoke_test.json
+│   │           │   └── openai/
+│   │           │       └── smoke_test.json
+│   │           └── stability/
+│   │               ├── anthropic/
+│   │               │   ├── latest_results.csv
+│   │               │   ├── provider_status.json
+│   │               │   ├── requests.jsonl
+│   │               │   └── results.jsonl
+│   │               ├── gemini/
+│   │               │   ├── latest_results.csv
+│   │               │   ├── provider_status.json
+│   │               │   ├── requests.jsonl
+│   │               │   └── results.jsonl
+│   │               └── openai/
+│   │                   ├── latest_results.csv
+│   │                   ├── provider_status.json
+│   │                   ├── requests.jsonl
+│   │                   └── results.jsonl
+│   ├── 2026-08-07_probability-postprocessing/
+│   │   ├── reports/
+│   │   │   ├── plots/
+│   │   │   │   ├── 01_historical_vs_probability_f1.png
+│   │   │   │   ├── 02_reliability_p1_direct.png
+│   │   │   │   ├── 02_reliability_p2_d1_old.png
+│   │   │   │   ├── 02_reliability_p2_d2_current.png
+│   │   │   │   ├── 02_reliability_p3_d1_old.png
+│   │   │   │   ├── 02_reliability_p3_d2_current.png
+│   │   │   │   ├── 03_coverage_accuracy_p1_direct.png
+│   │   │   │   ├── 03_coverage_accuracy_p2_d1_old.png
+│   │   │   │   ├── 03_coverage_accuracy_p2_d2_current.png
+│   │   │   │   ├── 03_coverage_accuracy_p3_d1_old.png
+│   │   │   │   ├── 03_coverage_accuracy_p3_d2_current.png
+│   │   │   │   └── 04_multiclass_macro_f1.png
+│   │   │   ├── benchmark_canonical.csv
+│   │   │   ├── calibration_tables.csv
+│   │   │   ├── condition_registry.csv
+│   │   │   ├── coverage_accuracy.csv
+│   │   │   ├── coverage_audit.csv
+│   │   │   ├── ensemble_rows.csv
+│   │   │   ├── experiment_manifest.json
+│   │   │   ├── exploratory_best.csv
+│   │   │   ├── historical_comparison.csv
+│   │   │   ├── historical_reference.csv
+│   │   │   ├── multiclass_summary.csv
+│   │   │   ├── new_codebook.csv
+│   │   │   ├── old_codebook.csv
+│   │   │   ├── postprocess_folds.csv
+│   │   │   ├── postprocess_rows.csv
+│   │   │   ├── postprocess_summary.csv
+│   │   │   ├── probability_rows.csv
+│   │   │   ├── prompt_audit.csv
+│   │   │   ├── raw_binary_summary.csv
+│   │   │   ├── review_queue.csv
+│   │   │   ├── run_plan.csv
+│   │   │   ├── selected_binary_summary.csv
+│   │   │   └── Unlearning_Phase1_Probability_Postprocessing_Report.xlsx
+│   │   └── runs/
+│   │       ├── phase1_probability_postprocessing_v1__anthropic__results.jsonl
+│   │       ├── phase1_probability_postprocessing_v1__gemini__results.jsonl
+│   │       └── phase1_probability_postprocessing_v1__openai__results.jsonl
+│   ├── 2026-08-23_gpt-test-first/
+│   │   ├── analysis/
+│   │   │   ├── baseline_simple_average_metrics_gpt_test.csv
+│   │   │   ├── final_gpt_test_all_document_metrics.csv
+│   │   │   ├── final_gpt_test_all_metrics.csv
+│   │   │   ├── final_gpt_test_all_selected_model_predictions_long.csv
+│   │   │   ├── final_gpt_test_all_selected_model_predictions_long.parquet
+│   │   │   ├── final_prompt_gpt_test_predictions.csv
+│   │   │   ├── final_prompt_gpt_test_predictions.parquet
+│   │   │   ├── final_prompt_model_metrics.csv
+│   │   │   ├── selected_model_direct_baseline_predictions_gpt_test.csv
+│   │   │   ├── selected_model_per_provider.csv
+│   │   │   ├── stage1_document_metrics.csv
+│   │   │   ├── stage1_gpt_test_predictions.csv
+│   │   │   ├── stage1_gpt_test_predictions.parquet
+│   │   │   ├── stage1_labeler_metrics.csv
+│   │   │   ├── stage1_model_metrics.csv
+│   │   │   ├── stage1_per_model_mcnemar.csv
+│   │   │   ├── stage1_selection_summary.csv
+│   │   │   ├── stage2_document_metrics.csv
+│   │   │   ├── stage2_gpt_test_predictions.csv
+│   │   │   ├── stage2_gpt_test_predictions.parquet
+│   │   │   ├── stage2_labeler_metrics.csv
+│   │   │   ├── stage2_model_metrics.csv
+│   │   │   ├── stage2_per_model_mcnemar.csv
+│   │   │   └── stage2_selection_summary.csv
+│   │   ├── audits/
+│   │   │   ├── baseline_gpt_test_preflight.csv
+│   │   │   ├── completion_audit.csv
+│   │   │   ├── duplicate_success_run_keys.csv
+│   │   │   ├── failure_summary.csv
+│   │   │   ├── final_all_authorization_audit.csv
+│   │   │   ├── final_all_cache_reuse_summary.csv
+│   │   │   ├── final_validation_report.json
+│   │   │   ├── prediction_integrity_audit.csv
+│   │   │   ├── prompt_checkpoint_integrity_audit.csv
+│   │   │   ├── source_integrity_audit.csv
+│   │   │   ├── stage1_gpt_test_preflight.csv
+│   │   │   ├── stage2_gpt_test_preflight.csv
+│   │   │   └── successful_call_cost_summary.csv
+│   │   ├── checkpoints/
+│   │   │   ├── deployment_configuration.json
+│   │   │   ├── final_gpt_test_all_deployment.json
+│   │   │   ├── selected_models.json
+│   │   │   ├── stage1_selection.json
+│   │   │   └── stage2_selection.json
+│   │   ├── exports/
+│   │   │   ├── final_gpt_test_all_locked_predictions_wide.csv
+│   │   │   ├── final_gpt_test_all_locked_predictions_wide.parquet
+│   │   │   ├── GPT_Test_ALL_Final_Selected_Models_Locked_Ensemble.xlsx
+│   │   │   ├── GPT_Test_Selected_Models_and_Ensembles_Manual_Review.xlsx
+│   │   │   ├── gpt_test_selected_models_manual_review.csv
+│   │   │   └── GPT_Test_Selected_Models_Manual_Review.xlsx
+│   │   ├── inference/
+│   │   │   ├── final_gpt_test_all_ensemble_inference.csv
+│   │   │   ├── final_gpt_test_all_ensemble_mcnemar.csv
+│   │   │   ├── final_gpt_test_all_metric_cis.csv
+│   │   │   └── primary_system_mcnemar.csv
+│   │   ├── inputs/
+│   │   │   └── Unlearning_GPT_Test_Paragraph_Aligned_ALL.xlsx
+│   │   ├── logs/
+│   │   │   ├── job_failures__gpt_test_all__google__stage2_checklist_ab.csv
+│   │   │   ├── missing__gpt_test__baseline.csv
+│   │   │   ├── missing__gpt_test__stage1_examples_ab.csv
+│   │   │   ├── missing__gpt_test__stage2_checklist_ab.csv
+│   │   │   └── missing__gpt_test_all__stage2_checklist_ab.csv
+│   │   ├── manifests/
+│   │   │   ├── codebook_render_manifest.json
+│   │   │   ├── dataset_summary.csv
+│   │   │   ├── final_gpt_test_all_preflight_rows.csv
+│   │   │   ├── final_gpt_test_all_preflight_summary.csv
+│   │   │   ├── gpt_test_all_codebook_example_overlap_audit.csv
+│   │   │   ├── gpt_test_all_normalized.csv
+│   │   │   ├── gpt_test_all_normalized.parquet
+│   │   │   ├── gpt_test_codebook_example_overlap_audit.csv
+│   │   │   ├── gpt_test_normalized.csv
+│   │   │   ├── gpt_test_normalized.parquet
+│   │   │   ├── gpt_test_to_all_exact_text_crosswalk.csv
+│   │   │   ├── immutable_source_manifest.json
+│   │   │   ├── package_versions.csv
+│   │   │   ├── pip_freeze.txt
+│   │   │   ├── run_manifest.json
+│   │   │   ├── sha256_checksums.csv
+│   │   │   ├── source_workbook_manifest.json
+│   │   │   └── structured_output_schema.json
+│   │   ├── optimization/
+│   │   │   ├── equal_weight_threshold_surface.csv
+│   │   │   ├── individual_best_thresholds.csv
+│   │   │   ├── individual_threshold_surface.csv
+│   │   │   ├── individual_unconstrained_best_thresholds.csv
+│   │   │   ├── locked_ensemble_metrics_apparent.csv
+│   │   │   ├── primary_oof_fold_selections.csv
+│   │   │   ├── primary_oof_metrics.csv
+│   │   │   ├── primary_oof_predictions.csv
+│   │   │   ├── primary_oof_vs_baseline_metrics.csv
+│   │   │   ├── weighted_threshold_surface.csv
+│   │   │   └── weighted_threshold_surface.parquet
+│   │   ├── predictions/
+│   │   │   ├── raw_jsonl/
+│   │   │   │   ├── anthropic_responses.jsonl
+│   │   │   │   ├── google_responses.jsonl
+│   │   │   │   └── openai_responses.jsonl
+│   │   │   └── snapshots/
+│   │   │       ├── gpt_test__baseline__anthropic__291349645c0f.csv
+│   │   │       ├── gpt_test__baseline__anthropic__291349645c0f.parquet
+│   │   │       ├── gpt_test__baseline__google__291349645c0f.csv
+│   │   │       ├── gpt_test__baseline__google__291349645c0f.parquet
+│   │   │       ├── gpt_test__baseline__openai__291349645c0f.csv
+│   │   │       ├── gpt_test__baseline__openai__291349645c0f.parquet
+│   │   │       ├── gpt_test__stage1_examples_ab__anthropic__9d30f3323820.csv
+│   │   │       ├── gpt_test__stage1_examples_ab__anthropic__9d30f3323820.parquet
+│   │   │       ├── gpt_test__stage1_examples_ab__google__9d30f3323820.csv
+│   │   │       ├── gpt_test__stage1_examples_ab__google__9d30f3323820.parquet
+│   │   │       ├── gpt_test__stage1_examples_ab__openai__9d30f3323820.csv
+│   │   │       ├── gpt_test__stage1_examples_ab__openai__9d30f3323820.parquet
+│   │   │       ├── gpt_test__stage2_checklist_ab__anthropic__1c75ac612768.csv
+│   │   │       ├── gpt_test__stage2_checklist_ab__anthropic__1c75ac612768.parquet
+│   │   │       ├── gpt_test__stage2_checklist_ab__google__1c75ac612768.csv
+│   │   │       ├── gpt_test__stage2_checklist_ab__google__1c75ac612768.parquet
+│   │   │       ├── gpt_test__stage2_checklist_ab__openai__1c75ac612768.csv
+│   │   │       ├── gpt_test__stage2_checklist_ab__openai__1c75ac612768.parquet
+│   │   │       ├── gpt_test_all__stage2_checklist_ab__anthropic__1c75ac612768.csv
+│   │   │       ├── gpt_test_all__stage2_checklist_ab__anthropic__1c75ac612768.parquet
+│   │   │       ├── gpt_test_all__stage2_checklist_ab__google__1c75ac612768.csv
+│   │   │       ├── gpt_test_all__stage2_checklist_ab__google__1c75ac612768.parquet
+│   │   │       ├── gpt_test_all__stage2_checklist_ab__openai__1c75ac612768.csv
+│   │   │       └── gpt_test_all__stage2_checklist_ab__openai__1c75ac612768.parquet
+│   │   ├── prompts/
+│   │   │   ├── codebook_no_examples_no_checklist__system.txt
+│   │   │   ├── codebook_no_examples_no_checklist__user_template.txt
+│   │   │   ├── codebook_no_examples_with_checklist__system.txt
+│   │   │   ├── codebook_no_examples_with_checklist__user_template.txt
+│   │   │   ├── codebook_with_examples.txt
+│   │   │   ├── codebook_with_examples_no_checklist__system.txt
+│   │   │   ├── codebook_with_examples_no_checklist__user_template.txt
+│   │   │   ├── codebook_with_examples_with_checklist__system.txt
+│   │   │   ├── codebook_with_examples_with_checklist__user_template.txt
+│   │   │   ├── codebook_without_examples.txt
+│   │   │   ├── direct_target_only__system.txt
+│   │   │   ├── direct_target_only__user_template.txt
+│   │   │   └── prompt_manifest.csv
+│   │   └── reports/
+│   │       ├── core_output_paths.csv
+│   │       ├── README_EXECUTION.txt
+│   │       ├── Unlearning_Experiment_Comprehensive_Report.xlsx
+│   │       └── Unlearning_Experiment_Report.md
+│   └── README.md
+├── manifests/
+│   ├── excluded_files.csv
+│   ├── notebook_execution_status.csv
+│   ├── repository_file_manifest.csv
+│   └── repository_snapshot.json
+├── notebooks/
+│   ├── current/
+│   │   └── 2026-08-23_paragraph_level_gpt_test_first_completed.ipynb
+│   ├── historical/
+│   │   ├── completed/
+│   │   │   ├── definitions_only_codebook_benchmark_executed.ipynb
+│   │   │   ├── initial_mcguire_4o_mini_executed.ipynb
+│   │   │   ├── local_context_definitions_only_executed.ipynb
+│   │   │   ├── phase1_probability_postprocessing_executed.ipynb
+│   │   │   ├── prelangchain_full_ab_v1_2_completed.ipynb
+│   │   │   ├── prelangchain_full_ab_v1_executed.ipynb
+│   │   │   ├── prelangchain_posthoc_v1_3_1_corrected_audit_executed.ipynb
+│   │   │   ├── production_multidocument_annotation_v1_executed.ipynb
+│   │   │   ├── production_multidocument_annotation_v2_verified_extraction_executed.ipynb
+│   │   │   ├── prompt_ab_v4_updated_test_set_executed.ipynb
+│   │   │   └── reproducibility_mega_notebook_v1_executed.ipynb
+│   │   └── incomplete/
+│   │       ├── definitions_only_v5_combined_human_missing_input.ipynb
+│   │       ├── full_pdf_evaluation_partial.ipynb
+│   │       ├── paragraph_level_gpt_test_first_interrupted.ipynb
+│   │       ├── prelangchain_api_hardened_partial.ipynb
+│   │       ├── prompt_ab_v2_5_4_nano_partial.ipynb
+│   │       └── prompt_ab_v4_provider_separated_interrupted.ipynb
+│   └── README.md
+├── scripts/
+│   ├── refresh_checksums.py
+│   └── validate_repository.py
+├── .gitattributes
+├── .gitignore
+├── CONTRIBUTING.md
+├── PRIVATE_REPOSITORY_NOTICE.md
+└── README.md

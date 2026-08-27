@@ -1,0 +1,4 @@
+phase,status,selected_condition_id,selection_basis,eligible_conditions
+phase1,provisional_historical_gold,P1_DIRECT,provisional minimum-shortfall candidate; not a final winner,0
+phase2,provisional_historical_gold,P1_DIRECT__C1_target,provisional minimum-shortfall candidate; not a final winner,0
+phase3,provisional_historical_gold,W1_ONE_STAGE,provisional minimum-shortfall candidate; not a final winner,0

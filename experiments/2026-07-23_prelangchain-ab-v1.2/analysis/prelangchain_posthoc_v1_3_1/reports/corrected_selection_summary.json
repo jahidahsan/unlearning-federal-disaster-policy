@@ -1,0 +1,255 @@
+{
+  "created_at_utc": "2026-07-24T00:46:02.618734+00:00",
+  "analysis_version": "prelangchain_posthoc_v1_3_1",
+  "source_protocol": "prelangchain_ab_v1_2_api_hardened",
+  "gold_basis": "historical provisional gold",
+  "final_gold_complete": false,
+  "source_selections_preserved": {
+    "phase1": {
+      "selected_condition_ids": [
+        "P1_DIRECT",
+        "P3_D2_CURRENT"
+      ],
+      "selection_basis": "preregistered constrained ranking against common-final gold",
+      "provisional_gold": true,
+      "created_at_utc": "2026-07-22T21:40:58.573684+00:00",
+      "phase1_ranking_sha256": "52f8a5ecf0e60ed480f97c1f9bbf06612247be7051f39555879f2fb46bf3f107"
+    },
+    "phase2": {
+      "selected_condition_id": "P1_DIRECT__C1_target",
+      "selection_basis": "preregistered constrained ranking",
+      "provisional_gold": true,
+      "phase2_ranking_sha256": "78d7c4e7b646dd244df6d5fd00c183957c6d8eedbc964980fb8f572cc8c8f6cf",
+      "phase2_progress": [
+        {
+          "phase": "phase2",
+          "provider": "openai",
+          "expected_tasks": 252,
+          "successful_tasks": 252,
+          "remaining_tasks": 0,
+          "latest_error_keys": 0,
+          "complete": true,
+          "results_path": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/runs/prelangchain_ab_v1_2_api_hardened/phase2/openai/results.jsonl"
+        },
+        {
+          "phase": "phase2",
+          "provider": "anthropic",
+          "expected_tasks": 252,
+          "successful_tasks": 252,
+          "remaining_tasks": 0,
+          "latest_error_keys": 0,
+          "complete": true,
+          "results_path": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/runs/prelangchain_ab_v1_2_api_hardened/phase2/anthropic/results.jsonl"
+        },
+        {
+          "phase": "phase2",
+          "provider": "gemini",
+          "expected_tasks": 252,
+          "successful_tasks": 252,
+          "remaining_tasks": 0,
+          "latest_error_keys": 0,
+          "complete": true,
+          "results_path": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/runs/prelangchain_ab_v1_2_api_hardened/phase2/gemini/results.jsonl"
+        }
+      ],
+      "created_at_utc": "2026-07-23T22:40:59.656726+00:00"
+    },
+    "phase3": {
+      "selected_condition_id": "W1_ONE_STAGE",
+      "selected_workflow": "W1_one_stage",
+      "selection_basis": "preregistered constrained ranking",
+      "phase3_ranking_sha256": "749340e1b0b3cf2844f254873f5cfaa38693dedcca011ecac080f702ced03de2",
+      "phase3_progress": [
+        {
+          "provider": "openai",
+          "expected_joint": 42,
+          "successful_joint": 42,
+          "expected_binary_stage1": 42,
+          "successful_binary_stage1": 42,
+          "expected_positive_stage2": 12,
+          "successful_positive_stage2": 12,
+          "missing_positive_stage2": 0,
+          "complete": true
+        },
+        {
+          "provider": "anthropic",
+          "expected_joint": 42,
+          "successful_joint": 42,
+          "expected_binary_stage1": 42,
+          "successful_binary_stage1": 42,
+          "expected_positive_stage2": 16,
+          "successful_positive_stage2": 16,
+          "missing_positive_stage2": 0,
+          "complete": true
+        },
+        {
+          "provider": "gemini",
+          "expected_joint": 42,
+          "successful_joint": 42,
+          "expected_binary_stage1": 42,
+          "successful_binary_stage1": 42,
+          "expected_positive_stage2": 12,
+          "successful_positive_stage2": 12,
+          "missing_positive_stage2": 0,
+          "complete": true
+        }
+      ],
+      "created_at_utc": "2026-07-23T22:57:54.552771+00:00"
+    },
+    "final": {
+      "protocol_version": "prelangchain_ab_v1_2_api_hardened",
+      "adapter_revision": "api_hardened_2026_07_22_r1",
+      "created_at_utc": "2026-07-23T23:37:03.026560+00:00",
+      "dataset_sha256": "ab203fea011cbf56eb75efcb5a2448c713b7640dc8f1deedfdfe2e9673f34ea0",
+      "benchmark_rows": 42,
+      "gold_common_final_basis": "historical provisional gold",
+      "definition_is_provisional": false,
+      "condition": {
+        "condition_id": "FINALIST_STABILITY",
+        "phase": "stability",
+        "definition_id": "D0_none",
+        "prompt_style": "P1_direct",
+        "context_id": "C1_target",
+        "workflow": "W1_one_stage",
+        "description": "Selected pre-LangChain finalist repeated across registered seeds."
+      },
+      "models": {
+        "openai": {
+          "provider": "openai",
+          "model_id": "gpt-5.6-terra",
+          "temperature_requested": 0.0,
+          "temperature_sent": null,
+          "temperature_transport": "temperature is unsupported by GPT-5.6 Terra in this Responses configuration; the field is forbidden by the local request firewall and is never transmitted",
+          "reasoning_label": "reasoning.effort=low",
+          "reasoning_payload": {
+            "effort": "low"
+          },
+          "native_seed_supported": false,
+          "native_seed_enabled": false,
+          "native_seed_transport": "no documented Responses decoding-seed field; experiment seed is local/repeat metadata only",
+          "api_transport": "OpenAI Responses API: client.responses.parse",
+          "structured_output_transport": "Pydantic text_format through Responses parse helper",
+          "api_key_env": "OPENAI_API_KEY",
+          "prompt_caching": "hashed prompt_cache_key (63 chars); exact static prefix first",
+          "reproducibility_mode": "fixed prompt/schema/model configuration + raw logs + repeated identical calls",
+          "max_output_tokens": 1800
+        },
+        "anthropic": {
+          "provider": "anthropic",
+          "model_id": "claude-haiku-4-5-20251001",
+          "temperature_requested": 0.0,
+          "temperature_sent": 0.0,
+          "temperature_transport": "temperature=0.0 sent; extended thinking omitted",
+          "reasoning_label": "lowest setting: extended thinking disabled",
+          "reasoning_payload": null,
+          "native_seed_supported": false,
+          "native_seed_enabled": false,
+          "native_seed_transport": "Claude Messages API exposes no decoding seed in this protocol",
+          "api_transport": "Anthropic Messages API: client.messages.parse",
+          "structured_output_transport": "Pydantic output_format convenience parameter",
+          "api_key_env": "ANTHROPIC_API_KEY",
+          "prompt_caching": "explicit ephemeral cache breakpoint on the static system block",
+          "reproducibility_mode": "pinned dated model ID + temperature 0 + raw logs + repeated identical calls",
+          "max_output_tokens": 1800
+        },
+        "gemini": {
+          "provider": "gemini",
+          "model_id": "gemini-3.1-flash-lite",
+          "temperature_requested": 0.0,
+          "temperature_sent": 0.0,
+          "temperature_transport": "temperature=0.0 sent",
+          "reasoning_label": "thinking_level=low",
+          "reasoning_payload": {
+            "thinking_level": "low"
+          },
+          "native_seed_supported": true,
+          "native_seed_enabled": true,
+          "native_seed_transport": "GenerationConfig.seed receives the registered experiment seed",
+          "api_transport": "Google Gen AI SDK: models.generate_content",
+          "structured_output_transport": "response_mime_type=application/json + response_json_schema",
+          "api_key_env": "GEMINI_API_KEY or GOOGLE_API_KEY",
+          "prompt_caching": "implicit prefix caching; cached token usage logged when reported",
+          "reproducibility_mode": "stable model ID + temperature 0 + native decoding seed + raw logs + repeats",
+          "max_output_tokens": 1800
+        }
+      },
+      "temperature_requested": {
+        "openai": 0.0,
+        "anthropic": 0.0,
+        "gemini": 0.0
+      },
+      "temperature_sent": {
+        "openai": null,
+        "anthropic": 0.0,
+        "gemini": 0.0
+      },
+      "provider_temperature_transport": {
+        "openai": "temperature is unsupported by GPT-5.6 Terra in this Responses configuration; the field is forbidden by the local request firewall and is never transmitted",
+        "anthropic": "temperature=0.0 sent; extended thinking omitted",
+        "gemini": "temperature=0.0 sent"
+      },
+      "provider_native_seed_supported": {
+        "openai": false,
+        "anthropic": false,
+        "gemini": true
+      },
+      "provider_native_seed_enabled": {
+        "openai": false,
+        "anthropic": false,
+        "gemini": true
+      },
+      "provider_native_seed_transport": {
+        "openai": "no documented Responses decoding-seed field; experiment seed is local/repeat metadata only",
+        "anthropic": "Claude Messages API exposes no decoding seed in this protocol",
+        "gemini": "GenerationConfig.seed receives the registered experiment seed"
+      },
+      "reproducibility_interpretation": "OpenAI and Claude experiment seeds are local scheduling/repeat identifiers, not provider decoding seeds. Gemini receives its registered native decoding seed. All providers are evaluated through repeated identical calls and complete provenance.",
+      "stability_seeds": [
+        17,
+        43,
+        101,
+        211,
+        307
+      ],
+      "one_target_paragraph_per_request": true,
+      "few_shot_examples_used": false,
+      "structured_evidence_only": true,
+      "tiered_review_policy": {
+        "Tier 1": "3 of 3 providers Yes",
+        "Tier 2": "2 of 3 providers Yes",
+        "Tier 3": "1 of 3 providers Yes",
+        "Tier 4": "0 of 3 providers Yes"
+      },
+      "selection_constraints": {
+        "minimum_schema_valid_rate": 0.99,
+        "minimum_evidence_valid_rate": 0.98,
+        "specificity_floor": 0.8
+      },
+      "warning": "Do not treat D3 as final until human adjudication is completed."
+    }
+  },
+  "corrected_selection_status": [
+    {
+      "phase": "phase1",
+      "status": "provisional_historical_gold",
+      "selected_condition_id": "P1_DIRECT",
+      "selection_basis": "provisional minimum-shortfall candidate; not a final winner",
+      "eligible_conditions": 0
+    },
+    {
+      "phase": "phase2",
+      "status": "provisional_historical_gold",
+      "selected_condition_id": "P1_DIRECT__C1_target",
+      "selection_basis": "provisional minimum-shortfall candidate; not a final winner",
+      "eligible_conditions": 0
+    },
+    {
+      "phase": "phase3",
+      "status": "provisional_historical_gold",
+      "selected_condition_id": "W1_ONE_STAGE",
+      "selection_basis": "provisional minimum-shortfall candidate; not a final winner",
+      "eligible_conditions": 0
+    }
+  ],
+  "interpretation": "No source selection file was overwritten. A final winner is declared only when final adjudicated gold is complete and a condition meets all preregistered constraints."
+}

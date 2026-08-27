@@ -1,0 +1,26 @@
+{
+  "snapshot_date": "2026-07-22",
+  "currency": "USD",
+  "per_tokens": 1000000,
+  "rates": {
+    "openai": {
+      "uncached_input": 2.5,
+      "cache_write_input": 3.125,
+      "cached_input": 0.25,
+      "output_including_reasoning": 15.0
+    },
+    "anthropic": {
+      "uncached_input": 1.0,
+      "cache_write_input": 1.25,
+      "cached_input": 0.1,
+      "output_including_reasoning": 5.0
+    },
+    "gemini": {
+      "uncached_input": 0.25,
+      "cache_write_input": 0.25,
+      "cached_input": 0.025,
+      "output_including_reasoning": 1.5
+    }
+  },
+  "caution": "Estimates exclude taxes, storage, priority/flex premiums, and provider billing adjustments."
+}

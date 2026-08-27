@@ -1,0 +1,12 @@
+{
+  "snapshot_name": "prelangchain_v12_discovery_r1_complete",
+  "created_at_utc": "2026-07-24T00:41:44.927289+00:00",
+  "source_protocol": "prelangchain_ab_v1_2_api_hardened",
+  "source_project_root": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace",
+  "snapshot_root": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/frozen_runs/prelangchain_v12_discovery_r1_complete",
+  "source_workbook": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/data/Unlearning_Codebook_Local_Context_Test_Set.xlsx",
+  "source_notebooks": [],
+  "manifest_sha256": "bff26a6de565c5acafe79bbe476b700737e3d5884c5466becab56bbd726215fc",
+  "file_records": 122,
+  "note": "Immutable source snapshot for post-hoc analysis; raw source directories remain untouched."
+}

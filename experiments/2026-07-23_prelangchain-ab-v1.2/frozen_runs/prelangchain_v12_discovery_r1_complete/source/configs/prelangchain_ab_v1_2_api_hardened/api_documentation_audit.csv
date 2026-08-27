@@ -1,0 +1,4 @@
+provider,model_id,documentation_checked_utc,model_status,validated_controls,structured_output,documentation
+openai,gpt-5.6-terra,2026-07-22,official GPT-5.6 Terra model page; Responses and structured outputs supported,reasoning.effort=low; no temperature; no provider seed,"client.responses.parse(..., text_format=PydanticModel)",https://developers.openai.com/api/docs/models/gpt-5.6-terra
+anthropic,claude-haiku-4-5-20251001,2026-07-22,official dated Haiku 4.5 snapshot,temperature=0; extended thinking disabled; no provider seed,"messages.parse(..., output_format=PydanticModel)",https://platform.claude.com/docs/en/build-with-claude/structured-outputs
+gemini,gemini-3.1-flash-lite,2026-07-22,official stable Gemini 3.1 Flash-Lite ID,temperature=0; thinking_level=low; GenerationConfig.seed,application/json + response_json_schema,https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite

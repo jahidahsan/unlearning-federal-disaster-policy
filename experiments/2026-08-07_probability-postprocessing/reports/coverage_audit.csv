@@ -1,0 +1,16 @@
+provider,requested_model,condition_id,seed,status,rows
+anthropic,claude-haiku-4-5-20251001,P1_DIRECT,17,ok,42
+anthropic,claude-haiku-4-5-20251001,P2_D1_OLD,17,ok,42
+anthropic,claude-haiku-4-5-20251001,P2_D2_CURRENT,17,ok,42
+anthropic,claude-haiku-4-5-20251001,P3_D1_OLD,17,ok,42
+anthropic,claude-haiku-4-5-20251001,P3_D2_CURRENT,17,ok,42
+gemini,gemini-3.1-flash-lite,P1_DIRECT,17,ok,42
+gemini,gemini-3.1-flash-lite,P2_D1_OLD,17,ok,42
+gemini,gemini-3.1-flash-lite,P2_D2_CURRENT,17,ok,42
+gemini,gemini-3.1-flash-lite,P3_D1_OLD,17,ok,42
+gemini,gemini-3.1-flash-lite,P3_D2_CURRENT,17,ok,42
+openai,gpt-5.6-terra,P1_DIRECT,17,ok,42
+openai,gpt-5.6-terra,P2_D1_OLD,17,ok,42
+openai,gpt-5.6-terra,P2_D2_CURRENT,17,ok,42
+openai,gpt-5.6-terra,P3_D1_OLD,17,ok,42
+openai,gpt-5.6-terra,P3_D2_CURRENT,17,ok,42

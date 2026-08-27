@@ -1,0 +1,10 @@
+check,passed,observed,expected,severity
+unique row_id,True,42.0,42,error
+nonempty target,True,42.0,42,error
+exactly one TARGET marker,True,42.0,42,error
+no duplicate context markers,True,42.0,42,error
+target-context match,True,1.0,>=0.97,error
+all five context marker slots available,False,40.0,42,warning
+no exact target duplicates,True,0.0,0,error
+expected row count,True,42.0,42,warning
+historical labels complete,True,42.0,42,error

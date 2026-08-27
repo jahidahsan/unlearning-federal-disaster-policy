@@ -1,0 +1,4 @@
+provider,run_name,model,prompt_name,logical_rows,cached_rows,rough_total_cost_usd,new_calls,reused_share
+anthropic,anthropic_claude_haiku_4_5_no_thinking,claude-haiku-4-5-20251001,codebook_no_examples_with_checklist,677,677,2.687715,0,1.0
+google,google_gemini_3_1_flash_lite_low,gemini-3.1-flash-lite,codebook_no_examples_with_checklist,677,235,0.70239375,442,0.34711964549483015
+openai,openai_gpt_5_6_terra_low,gpt-5.6-terra,codebook_no_examples_with_checklist,677,677,5.61915,0,1.0

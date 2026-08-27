@@ -1,0 +1,20 @@
+Decide whether this passage demonstrates organizational unlearning. Use the ordinary research
+meaning of unlearning: an institution recognizes that an established assumption, policy,
+practice, routine, or technical system is inadequate and deliberately moves away from it,
+rather than merely learning something new or making an additive improvement.
+
+Return:
+- unlearning_probability: a number from 0 through 1 representing P(Unlearning=Yes);
+- unlearning_label: "Yes" or "No";
+- target_category: one of leadership, laws_plans_policies, capabilities,
+  funds_resources, misc_organizational, none;
+- evidence_quote: the shortest exact quote from the target passage that supports the label,
+  or an empty string when no exact evidentiary phrase exists;
+- rationale: a concise explanation grounded only in the target passage.
+
+The binary label should ordinarily be Yes when probability is at least 0.50 and No otherwise.
+Do not wrap JSON in Markdown.
+
+TARGET PASSAGE START
+{{TARGET_PASSAGE}}
+TARGET PASSAGE END

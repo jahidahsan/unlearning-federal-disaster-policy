@@ -1,0 +1,70 @@
+{
+  "protocol_version": "prelangchain_ab_v1_2_api_hardened",
+  "adapter_revision": "api_hardened_2026_07_22_r1",
+  "provider": "openai",
+  "model_config_sha256": "9f79900c8bed0b7477c913b17364bb219bc9284c1c9b1d9099c7ce1f2cc084bc",
+  "prompt_sha256": "6db2ee701b7b22588e44b8b0a4bde991f7bd9fddacaaa7c3e65a758b1d52b915",
+  "schema_sha256": "160ef51b848bbba94ee5996a63b20821792de7b7319a848da6741e11e321f8b6",
+  "adapter_sha256": "7caf2109f1790a75ad2a08f76f6dd3d5f0af4a95bfe8fbeb313fb47d1811bdb4",
+  "request_builder_sha256": "f07b7adda6057c93ba345c8191fe55ad464253ec338520f025ea5410288f9009",
+  "parameter_preflight_sha256": "cb9ae3f18f28080221f1803eb345e5081484103355dc2e77140552a71d752637",
+  "passed": true,
+  "started_at_utc": "2026-07-22T20:43:58.657440+00:00",
+  "completed_at_utc": "2026-07-22T20:43:58.657456+00:00",
+  "requested_model": "gpt-5.6-terra",
+  "returned_model": "gpt-5.6-terra",
+  "request_id": "resp_087e953332924f4b016a612b8cbc708191af24c8c6b25ef55f",
+  "schema_id": "checklist_joint",
+  "schema_valid": true,
+  "prediction": false,
+  "input_tokens": 1115,
+  "output_tokens": 138,
+  "cached_input_tokens": 0,
+  "cache_creation_input_tokens": 1112,
+  "reasoning_tokens": 0,
+  "latency_seconds": 2.7742565780000064,
+  "accepted_parameters": {
+    "adapter_revision": "api_hardened_2026_07_22_r1",
+    "temperature_requested": 0.0,
+    "temperature_sent": null,
+    "temperature_transport": "temperature is unsupported by GPT-5.6 Terra in this Responses configuration; the field is forbidden by the local request firewall and is never transmitted",
+    "reasoning": {
+      "effort": "low"
+    },
+    "max_output_tokens": 1800,
+    "prompt_cache_key": "ul-79d53be2483605bccde967d52b73fd2155b9740d72589930945c2a6b6112",
+    "prompt_cache_key_length": 63,
+    "store": false,
+    "provider_seed_supported": false,
+    "provider_seed_sent": false,
+    "provider_seed_value": null,
+    "experiment_seed_local_only": 17,
+    "transport_parameter_keys": [
+      "input",
+      "max_output_tokens",
+      "model",
+      "prompt_cache_key",
+      "reasoning",
+      "store",
+      "text_format"
+    ],
+    "parameter_firewall_removed": {}
+  },
+  "sdk_preflight": {
+    "provider": "openai",
+    "passed": true,
+    "mock": false,
+    "sdk_version": "2.47.0",
+    "adapter_revision": "api_hardened_2026_07_22_r1",
+    "transport_parameter_keys": [
+      "input",
+      "max_output_tokens",
+      "model",
+      "prompt_cache_key",
+      "reasoning",
+      "store",
+      "text_format"
+    ]
+  },
+  "mock": false
+}

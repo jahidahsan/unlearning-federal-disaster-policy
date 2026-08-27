@@ -1,0 +1,4 @@
+provider,expected_joint,successful_joint,expected_binary_stage1,successful_binary_stage1,expected_positive_stage2,successful_positive_stage2,missing_positive_stage2,complete
+openai,42,42,42,42,12,12,0,True
+anthropic,42,42,42,42,16,16,0,True
+gemini,42,42,42,42,12,12,0,True

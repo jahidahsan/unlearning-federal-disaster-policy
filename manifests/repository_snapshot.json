@@ -1,0 +1,46 @@
+{
+  "snapshot_version": "v0.9.0-private-prelangchain",
+  "snapshot_date": "2026-08-26",
+  "status": "private team verification",
+  "canonical_hashes": {
+    "current_codebook": "ae88f0e46bbc4cbc31181e5e905906098be6ec35f87926dc426a4866aafc3208",
+    "current_strict_benchmark": "eea91ee31b51187774880fa395e75f4e0fc7bb90419a16fbaab4bbb99ea55d83",
+    "aug23_run_input": "a148051e24ccab080b35a2404cebddeff24cd7c0aec9b5af1f45c42a39c85d31",
+    "aug23_executed_notebook": "d7c2a922bd8bfbc68adff1985365ccab3b111845ad6a3443124b051ee462feeb"
+  },
+  "source_archives": [
+    {
+      "filename": "From Google Drive Latest.zip",
+      "sha256": "26e1cb1b772ba18bab52782b87545de7e1aff935bff70635b5d572adb791d654",
+      "size_bytes": 49675322
+    },
+    {
+      "filename": "From Desktop Folder.zip",
+      "sha256": "099245fc0bdabdda3070463dd850efa88d988d679019996c142878da68686a6d",
+      "size_bytes": 10335875
+    },
+    {
+      "filename": "from downloads folder.zip",
+      "sha256": "587fb41d64102bd8b6a6313edeb1764ea84c39c822679aeea436ae6f09e2fdd2",
+      "size_bytes": 10841934
+    }
+  ],
+  "deliberately_excluded": [
+    "CSCW_Workshop_Unlearning_3Pager.pdf",
+    "unfinished LangChain retrieval notebook and output folder",
+    "all notebooks with no stored outputs",
+    "qm7 notes.txt",
+    "redundant nested peer-review ZIP"
+  ],
+  "source_accounting": {
+    "source_archive_file_instances": 704,
+    "google_drive_archive_files": 511,
+    "desktop_archive_files": 43,
+    "downloads_archive_files": 150,
+    "notebook_source_instances": 43,
+    "outputless_notebook_instances_excluded": 22,
+    "unique_output_bearing_notebooks_in_repository": 18,
+    "legacy_artifacts_after_exact_deduplication": 110,
+    "excluded_source_instances_and_transfer_containers_recorded": 71
+  }
+}

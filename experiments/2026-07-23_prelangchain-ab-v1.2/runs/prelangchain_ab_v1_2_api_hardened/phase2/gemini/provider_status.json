@@ -1,0 +1,18 @@
+{
+  "provider": "gemini",
+  "phase": "phase2",
+  "started_at_utc": "2026-07-23T22:35:15.817074+00:00",
+  "completed_at_utc": "2026-07-23T22:40:42.788228+00:00",
+  "tasks_requested": 252,
+  "new_attempts": 53,
+  "successful_run_keys_total": 252,
+  "smoke_passed": true,
+  "smoke_reason": "current smoke test passed",
+  "stopped_early": false,
+  "stop_reason": null,
+  "last_error_fingerprint": null,
+  "max_consecutive_errors": 3,
+  "max_identical_errors": 2,
+  "result_log": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/runs/prelangchain_ab_v1_2_api_hardened/phase2/gemini/results.jsonl",
+  "error_log": "/content/drive/MyDrive/Unlearning_Project/prelangchain_ab_v1_2_workspace/runs/prelangchain_ab_v1_2_api_hardened/phase2/gemini/errors.jsonl"
+}

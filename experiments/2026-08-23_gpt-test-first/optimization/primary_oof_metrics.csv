@@ -1,0 +1,2 @@
+system,n,predicted_positive_count,tn,fp,fn,tp,accuracy,precision,recall,f1,auroc,auprc,brier
+oof_optimized_final_prompt_weighted_ensemble,84,23,37,5,24,18,0.6547619047619048,0.782608695652174,0.42857142857142855,0.5538461538461539,0.7494331065759637,0.7936351044873836,0.27890281250000004

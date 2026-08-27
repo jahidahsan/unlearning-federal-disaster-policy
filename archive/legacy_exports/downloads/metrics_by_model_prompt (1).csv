@@ -1,0 +1,3 @@
+provider,model,prompt_variant,n_scored,accuracy,precision_yes,recall_yes,f1_yes,tp,tn,fp,fn,input_tokens,output_tokens,total_tokens,cost_usd,avg_latency_seconds
+gemini,gemini-2.5-flash-lite,definitions_only,2,0.5,1.0,0.5,0.6666666666666666,1,0,0,1,4016,129,4145,0.00045320000000000007,0.915094256401062
+gemini,gemini-2.5-flash-lite,direct_no_context,7,0.0,,0.0,,0,0,0,7,1968,291,2265,0.0003132,3.463747535433088

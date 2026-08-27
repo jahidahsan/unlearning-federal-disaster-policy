@@ -1,0 +1,18 @@
+{
+  "provider": "anthropic",
+  "phase": "phase1",
+  "started_at_utc": "2026-07-22T20:57:56.805181+00:00",
+  "completed_at_utc": "2026-07-22T21:09:20.978875+00:00",
+  "tasks_requested": 294,
+  "new_attempts": 294,
+  "successful_run_keys_total": 294,
+  "smoke_passed": true,
+  "smoke_reason": "current smoke test passed",
+  "stopped_early": false,
+  "stop_reason": null,
+  "last_error_fingerprint": null,
+  "max_consecutive_errors": 3,
+  "max_identical_errors": 2,
+  "result_log": "/content/runs/prelangchain_ab_v1_2_api_hardened/phase1/anthropic/results.jsonl",
+  "error_log": "/content/runs/prelangchain_ab_v1_2_api_hardened/phase1/anthropic/errors.jsonl"
+}
